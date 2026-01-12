@@ -100,7 +100,7 @@ export default function ResultMemberCard({
 
             {/* 属性タグ */}
             <div className="mb-2">
-              <AttributeTagList attributeKeys={member.tags} locale={locale} maxDisplay={3} />
+              <AttributeTagList tags={member.tags} locale={locale} maxDisplay={3} />
             </div>
 
             {/* スコア情報 */}
@@ -173,7 +173,7 @@ export default function ResultMemberCard({
 
       {/* 情報エリア（コンパクト） */}
       <div className="p-2">
-        <AttributeTagList attributeKeys={member.tags} locale={locale} maxDisplay={2} size="sm" />
+        <AttributeTagList tags={member.tags} locale={locale} maxDisplay={2} size="sm" />
       </div>
     </div>
   );
