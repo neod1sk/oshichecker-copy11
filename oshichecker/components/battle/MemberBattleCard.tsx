@@ -30,7 +30,7 @@ export default function MemberBattleCard({
       onClick={onSelect}
       disabled={isSelected || isLoser}
       className={`
-        relative w-full aspect-[3/4] rounded-3xl overflow-hidden
+        relative w-full aspect-[16/9] rounded-3xl overflow-hidden
         transition-all duration-300 ease-out
         ${isSelected 
           ? "ring-4 ring-orange-400 scale-105 shadow-2xl z-10" 

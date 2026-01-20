@@ -70,7 +70,7 @@ export const ATTRIBUTE_DEFINITIONS = [
   { key: "recognition", category: "meet", label: { ja: "認知度" } },
   { key: "closeness", category: "meet", label: { ja: "距離感" } },
   { key: "social", category: "meet", label: { ja: "社交性" } },
-  { key: "gap", category: "meet", label: { ja: "ギャップ" } },
+  { key: "gap", category: "meet", label: { ja: "ツンデレ" } },
 ] as const satisfies readonly AttributeDefinition[];
 
 export type AttributeKey = (typeof ATTRIBUTE_DEFINITIONS)[number]["key"];

@@ -40,6 +40,7 @@ export default function SurveyClient({
   const [isCalculating, setIsCalculating] = useState(false);
   const hasInitialized = useRef(false);
   const [selectedOptionIds, setSelectedOptionIds] = useState<string[]>([]);
+  const [isLanguageCardCollapsed, setIsLanguageCardCollapsed] = useState(false);
 
   const koreanLevelOptions: { value: KoreanLevel; label: string }[] = [
     { value: "none", label: "ほぼ話せない" },
@@ -122,10 +123,12 @@ const handleSkipMulti = () => {
 
   const handleKoreanLevelChange = (level: KoreanLevel) => {
     setKoreanLevel(level);
+    setIsLanguageCardCollapsed(true);
   };
 
   const handlePreferToggle = (value: boolean) => {
     setPreferJapaneseSupport(value);
+    setIsLanguageCardCollapsed(true);
   };
 
   // 質問が変わったら選択をリセット
@@ -196,63 +199,90 @@ const handleSkipMulti = () => {
         />
       </div>
 
-      {/* 言語設定 */}
-      <div className="w-full max-w-sm mb-4 p-4 rounded-lg bg-white shadow-sm border border-gray-100">
-        <div className="flex items-center justify-between mb-3">
-          <div>
-            <p className="text-sm font-semibold text-gray-800">韓国語レベル</p>
-            <p className="text-xs text-gray-500">目安でOKです</p>
-          </div>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {koreanLevelOptions.map((option) => {
-            const isActive = state.koreanLevel === option.value;
-            return (
-              <button
-                key={option.value}
-                type="button"
-                onClick={() => handleKoreanLevelChange(option.value)}
-                className={`px-3 py-1.5 rounded-full text-sm border transition ${
-                  isActive
-                    ? "border-orange-400 bg-orange-50 text-orange-600"
-                    : "border-gray-200 bg-gray-50 text-gray-600 hover:border-orange-200"
-                }`}
-              >
-                {option.label}
-              </button>
-            );
-          })}
-        </div>
-
-        <div className="mt-4 pt-3 border-t border-gray-100">
-          <div className="flex items-center justify-between gap-3">
-            <div>
-              <p className="text-sm font-semibold text-gray-800">
-                日本語対応がある子を優先したい
-              </p>
-              <p className="text-xs text-gray-500">
-                おすすめ: {recommendedPrefer ? "ON" : "OFF"}
-              </p>
+      {/* 言語設定（折りたたみ可能） */}
+      <div className="w-full max-w-sm mb-4">
+        {isLanguageCardCollapsed ? (
+          <button
+            type="button"
+            onClick={() => setIsLanguageCardCollapsed(false)}
+            className="w-full flex items-center justify-between gap-3 px-3 py-2 rounded-lg border border-gray-200 bg-white shadow-sm text-sm text-gray-700 hover:border-orange-200 transition"
+          >
+            <div className="flex flex-col text-left leading-tight">
+              <span className="font-semibold">言語設定を編集</span>
+              <span className="text-xs text-gray-500">
+                {`韓国語: ${koreanLevelOptions.find((o) => o.value === state.koreanLevel)?.label ?? "未選択"} / 日本語優先: ${state.preferJapaneseSupport ? "ON" : "OFF"}`}
+              </span>
             </div>
-            <label className="inline-flex items-center cursor-pointer">
-              <input
-                type="checkbox"
-                className="sr-only peer"
-                checked={state.preferJapaneseSupport}
-                onChange={(e) => handlePreferToggle(e.target.checked)}
-              />
-              <div
-                className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:bg-orange-400 transition-colors"
-              >
-                <div
-                  className={`h-5 w-5 bg-white rounded-full shadow transform transition-transform mt-0.5 ml-0.5 ${
-                    state.preferJapaneseSupport ? "translate-x-5" : ""
-                  }`}
-                />
+            <span className="text-xs px-2 py-1 rounded-full bg-orange-50 text-orange-600 border border-orange-100">
+              開く
+            </span>
+          </button>
+        ) : (
+          <div className="p-4 rounded-lg bg-white shadow-sm border border-gray-100">
+            <div className="flex items-center justify-between mb-3">
+              <div>
+                <p className="text-sm font-semibold text-gray-800">あなたの韓国語レベル</p>
+                <p className="text-xs text-gray-500">目安でOKです</p>
               </div>
-            </label>
+              <button
+                type="button"
+                onClick={() => setIsLanguageCardCollapsed(true)}
+                className="text-xs text-gray-400 hover:text-gray-600 transition"
+              >
+                たたむ
+              </button>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {koreanLevelOptions.map((option) => {
+                const isActive = state.koreanLevel === option.value;
+                return (
+                  <button
+                    key={option.value}
+                    type="button"
+                    onClick={() => handleKoreanLevelChange(option.value)}
+                    className={`px-3 py-1.5 rounded-full text-sm border transition ${
+                      isActive
+                        ? "border-orange-400 bg-orange-50 text-orange-600"
+                        : "border-gray-200 bg-gray-50 text-gray-600 hover:border-orange-200"
+                    }`}
+                  >
+                    {option.label}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="mt-4 pt-3 border-t border-gray-100">
+              <div className="flex items-center justify-between gap-3">
+                <div>
+                  <p className="text-sm font-semibold text-gray-800">
+                    日本語対応があるアイドルを優先
+                  </p>
+                  <p className="text-xs text-gray-500">
+                    おすすめ：ON
+                  </p>
+                </div>
+                <label className="inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    className="sr-only peer"
+                    checked={state.preferJapaneseSupport}
+                    onChange={(e) => handlePreferToggle(e.target.checked)}
+                  />
+                  <div
+                    className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:bg-orange-400 transition-colors"
+                  >
+                    <div
+                      className={`h-5 w-5 bg-white rounded-full shadow transform transition-transform mt-0.5 ml-0.5 ${
+                        state.preferJapaneseSupport ? "translate-x-5" : ""
+                      }`}
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* 質問カード */}

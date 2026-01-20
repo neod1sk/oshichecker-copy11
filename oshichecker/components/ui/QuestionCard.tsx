@@ -31,7 +31,10 @@ export default function QuestionCard({
   questionNumber,
   totalQuestions,
 }: QuestionCardProps) {
-  const questionText = getLocalizedText(question, locale);
+  const questionText =
+    question.id === "q_genre_worldview"
+      ? "好きなジャンル（最大2つまで）"
+      : getLocalizedText(question, locale);
   const isMulti = question.type === "multi";
   const minSelect = question.minSelect ?? 1;
   const maxSelect = question.maxSelect ?? question.options.length;
@@ -85,6 +88,7 @@ export default function QuestionCard({
           const optionId = option.id ?? String(index);
           const isSelected = selectedOptionIds.includes(optionId);
           const disableSelect = isMulti && maxReached && !isSelected;
+
           const iconSrc =
             (isFaceAnimal && option.id)
               ? `/images/animals/${option.id}.svg`

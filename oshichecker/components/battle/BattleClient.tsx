@@ -124,10 +124,10 @@ export default function BattleClient({ locale, dict }: BattleClientProps) {
       <p className="text-gray-500 text-sm mb-6">{dict.subtitle}</p>
 
       {/* バトルエリア */}
-      <div className="w-full max-w-sm" key={state.currentBattleRound}>
-        <div className="flex items-center gap-3 animate-scale-in">
+      <div className="w-full max-w-4xl px-2 sm:px-4" key={state.currentBattleRound}>
+        <div className="flex flex-col items-center gap-6 animate-scale-in">
           {/* 左のメンバー */}
-          <div className="flex-1">
+          <div className="w-full">
             <MemberBattleCard
               member={memberA.member}
               locale={locale}
@@ -139,13 +139,13 @@ export default function BattleClient({ locale, dict }: BattleClientProps) {
           </div>
 
           {/* VS */}
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white/80 backdrop-blur 
+          <div className="flex-shrink-0 w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/80 backdrop-blur 
             flex items-center justify-center shadow-lg border border-gray-100">
-            <span className="text-xs font-bold text-gray-500">{dict.vs}</span>
+            <span className="text-sm md:text-base font-bold text-gray-500">{dict.vs}</span>
           </div>
 
           {/* 右のメンバー */}
-          <div className="flex-1">
+          <div className="w-full">
             <MemberBattleCard
               member={memberB.member}
               locale={locale}

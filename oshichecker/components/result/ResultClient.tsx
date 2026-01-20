@@ -140,7 +140,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
 
         {/* ウォーターマーク（画像保存時に表示） */}
         <div className="mt-3 text-center text-xs text-gray-400">
-          推しチェッカー | oshichecker.example.com
+          画像はアイドルのツイートから引用しています
         </div>
       </div>
 

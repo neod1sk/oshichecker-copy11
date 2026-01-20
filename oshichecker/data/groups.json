@@ -1,16 +1,23 @@
 [
   {
-    "id": "group-a",
-    "name": "サンプルグループA",
-    "nameKo": "샘플 그룹 A",
-    "nameEn": "Sample Group A",
+    "id": "KOKOIYA",
+    "name": "KOKOIYA",
+    "nameKo": "코코이야",
+    "nameEn": "KOKOIYA",
     "color": "#FF6B9D"
   },
   {
-    "id": "group-b",
-    "name": "サンプルグループB",
-    "nameKo": "샘플 그룹 B",
-    "nameEn": "Sample Group B",
+    "id": "H7KD",
+    "name": "H7KD",
+    "nameKo": "H7KD",
+    "nameEn": "H7KD",
     "color": "#7C5CFF"
+  },
+  {
+    "id": "REIEI",
+    "name": "REIEI",
+    "nameKo": "REIEI",
+    "nameEn": "REIEI",
+    "color": "#14b8a6"
   }
 ]

@@ -5,20 +5,19 @@
     "nameKo": "하루나",
     "nameEn": "HARUNA",
     "groupId": "KOKOIYA",
-    "photoUrl": "",
-    "tags": ["sexy", "kind", "face_raccoon_dog"],
+    "photoUrl": "https://assets.st-note.com/img/1760014024-kNdoiFG94b0jKTnIwcp5qz2S.jpg?width=1200",
+    "tags": ["sexy", "kind", "facial"],
     "scores": {
-      "genre_magical": 1,
-      "genre_orthodox": 2,
-      "sexy": 2,
-      "elegant": 3,
+      "genre_magical": 2,
+      "genre_orthodox": 3,
+      "face_raccoon_dog": 2,
+      "sexy": 3,
+      "elegant": 2,
       "facial": 3,
       "stability": 2,
       "kind": 3,
       "cheer": 2,
-      "face_cat": 2,
-      "face_fox": 3,
-      "face_dog": 1
+      "social": 2
     },
     "jpSupport": "some",
     "covers": {
@@ -35,173 +34,3224 @@
   },
   {
     "id": "member-02",
-    "name": "メンバー2",
-    "nameKo": "멤버 2",
-    "nameEn": "Member 2",
-    "groupId": "group-a",
-    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=2",
-    "tags": ["cool", "leader", "tall"],
+    "name": "まつ",
+    "nameKo": "마츠",
+    "nameEn": "MATSU",
+    "groupId": "KOKOIYA",
+    "photoUrl": "https://assets.st-note.com/img/1760014002-DrfHlORBhoGvV6cZbqkX2F9u.jpg?width=1200",
+    "tags": ["dance", "vocal", "charming"],
     "scores": {
+      "genre_magical": 2,
+      "genre_orthodox": 3,
+      "face_squirrel": 1,
       "cute": 2,
-      "cool": 5,
-      "energetic": 3,
-      "calm": 3,
-      "funny": 2,
-      "mysterious": 3
+      "mysterious": 2,
+      "dance": 3,
+      "vocal": 3,
+      "stability": 2,
+      "charming": 3,
+      "talk": 2
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "no",
+    "covers": {
+      "artist_chula": 2,
+      "artist_miracle_fanfare": 1,
+      "artist_appare!": 1,
+      "artist_ilife": 1,
+      "artist_nonfict": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_pimms": 1,
+      "artist_sakusaku_jumble": 1,
+      "artist_jiemei": 1
+    }
   },
   {
     "id": "member-03",
-    "name": "メンバー3",
-    "nameKo": "멤버 3",
-    "nameEn": "Member 3",
-    "groupId": "group-a",
-    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=3",
-    "tags": ["funny", "energetic", "mood-maker"],
+    "name": "ひな",
+    "nameKo": "히나",
+    "nameEn": "HINA",
+    "groupId": "KOKOIYA",
+    "photoUrl": "https://assets.st-note.com/img/1760013558-WHvxhqltbpmPGwi7sJy9UNnO.jpg?width=1200",
+    "tags": ["cute", "comfort", "face_dog"],
     "scores": {
+      "genre_magical": 2,
+      "genre_orthodox": 3,
+      "face_dog": 2,
       "cute": 3,
-      "cool": 2,
-      "energetic": 5,
-      "calm": 1,
-      "funny": 5,
-      "mysterious": 1
+      "healing": 3,
+      "idol_polished": 2,
+      "energy": 3,
+      "facial": 3,
+      "comfort": 3,
+      "kind": 3
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "ok",
+    "covers": {
+      "artist_chula": 2,
+      "artist_miracle_fanfare": 1,
+      "artist_appare!": 1,
+      "artist_ilife": 1,
+      "artist_nonfict": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_pimms": 1,
+      "artist_sakusaku_jumble": 1,
+      "artist_jiemei": 1
+    }
   },
   {
     "id": "member-04",
-    "name": "メンバー4",
-    "nameKo": "멤버 4",
-    "nameEn": "Member 4",
-    "groupId": "group-a",
-    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=4",
-    "tags": ["calm", "mysterious", "visual"],
+    "name": "みゃお",
+    "nameKo": "먀오",
+    "nameEn": "MYAO",
+    "groupId": "KOKOIYA",
+    "photoUrl": "https://assets.st-note.com/img/1760013972-LN6tx8yb9fVXrWdKYgc0O2vB.jpg?width=1200",
+    "tags": ["elegant", "charming", "growth"],
     "scores": {
-      "cute": 2,
-      "cool": 4,
-      "energetic": 1,
-      "calm": 5,
-      "funny": 1,
-      "mysterious": 5
+      "genre_magical": 2,
+      "genre_orthodox": 3,
+      "face_cat": 2,
+      "elegant": 3,
+      "pure": 2,
+      "growth": 3,
+      "facial": 1,
+      "charming": 3,
+      "cool": 2,
+      "recognition": 1
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "no",
+    "covers": {
+      "artist_chula": 2,
+      "artist_miracle_fanfare": 1,
+      "artist_appare!": 1,
+      "artist_ilife": 1,
+      "artist_nonfict": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_pimms": 1,
+      "artist_sakusaku_jumble": 1,
+      "artist_jiemei": 1
+    }
   },
   {
     "id": "member-05",
-    "name": "メンバー5",
-    "nameKo": "멤버 5",
-    "nameEn": "Member 5",
-    "groupId": "group-b",
-    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=5",
-    "tags": ["cute", "calm", "vocalist"],
+    "name": "りこ",
+    "nameKo": "리코",
+    "nameEn": "RIKO",
+    "groupId": "H7KD",
+    "photoUrl": "https://assets.st-note.com/img/1761488789-ZLdkRMFUOV5u27hvHYxDBgq3.jpg?width=1200",
+    "tags": ["youthful", "stability", "talk"],
     "scores": {
-      "cute": 4,
-      "cool": 2,
-      "energetic": 2,
-      "calm": 4,
-      "funny": 2,
-      "mysterious": 2
+      "genre_denpa": 4,
+      "face_cat": 1,
+      "youthful": 3,
+      "cute": 1,
+      "facial": 2,
+      "stability": 3,
+      "recognition": 2,
+      "talk": 3,
+      "cheer": 2
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "ok",
+    "covers": {
+      "artist_zerokara_start": 4,
+      "artist_cy8er": 2,
+      "artist_appare!": 1,
+      "artist_stainy": 1,
+      "artist_animo": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
   },
   {
     "id": "member-06",
-    "name": "メンバー6",
-    "nameKo": "멤버 6",
-    "nameEn": "Member 6",
-    "groupId": "group-b",
-    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=6",
-    "tags": ["cool", "energetic", "dancer"],
+    "name": "ミヤミ",
+    "nameKo": "미야미",
+    "nameEn": "MIYAMI",
+    "groupId": "H7KD",
+    "photoUrl": "https://assets.st-note.com/img/1761488828-4SABNojElWDK5PFhCn3RTvzm.jpg?width=1200",
+    "tags": ["dance", "energy", "recognition"],
     "scores": {
-      "cute": 1,
-      "cool": 5,
-      "energetic": 5,
-      "calm": 1,
-      "funny": 3,
-      "mysterious": 2
+      "genre_denpa": 4,
+      "face_squirrel": 1,
+      "cute": 2,
+      "youthful": 2,
+      "dance": 3,
+      "energy": 3,
+      "facial": 2,
+      "cheer": 3,
+      "recognition": 3
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "ok",
+    "covers": {
+      "artist_zerokara_start": 4,
+      "artist_cy8er": 2,
+      "artist_appare!": 1,
+      "artist_stainy": 1,
+      "artist_animo": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
   },
   {
     "id": "member-07",
-    "name": "メンバー7",
-    "nameKo": "멤버 7",
-    "nameEn": "Member 7",
-    "groupId": "group-b",
-    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=7",
-    "tags": ["funny", "cute", "maknae"],
+    "name": "よる",
+    "nameKo": "요루",
+    "nameEn": "YORU",
+    "groupId": "H7KD",
+    "photoUrl": "https://assets.st-note.com/img/1761488844-7yKXnhDF5WoJC3gGp2r9PAiS.jpg?width=1200",
+    "tags": ["healing", "energy", "stability"],
     "scores": {
-      "cute": 5,
-      "cool": 1,
-      "energetic": 4,
+      "genre_denpa": 4,
+      "face_dog": 2,
+      "healing": 2,
+      "cute": 1,
+      "vocal": 2,
+      "energy": 3,
+      "stability": 3,
       "calm": 2,
-      "funny": 4,
-      "mysterious": 1
+      "kind": 2
     },
     "jpSupport": "unknown",
-    "covers": {}
+    "covers": {
+      "artist_zerokara_start": 4,
+      "artist_cy8er": 2,
+      "artist_appare!": 1,
+      "artist_stainy": 1,
+      "artist_animo": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
   },
   {
     "id": "member-08",
-    "name": "メンバー8",
-    "nameKo": "멤버 8",
-    "nameEn": "Member 8",
-    "groupId": "group-b",
-    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=8",
-    "tags": ["mysterious", "cool", "rapper"],
+    "name": "るび",
+    "nameKo": "루비",
+    "nameEn": "RUBY",
+    "groupId": "H7KD",
+    "photoUrl": "https://assets.st-note.com/img/1761488862-ekNT3xwIU859X4Pv7o6QAWhY.jpg?width=1200",
+    "tags": ["idol_kpop", "vocal", "cute"],
     "scores": {
-      "cute": 1,
-      "cool": 4,
-      "energetic": 3,
-      "calm": 3,
-      "funny": 2,
-      "mysterious": 5
+      "genre_denpa": 4,
+      "face_cat": 1,
+      "cute": 2,
+      "idol_kpop": 3,
+      "vocal": 3,
+      "presence": 2,
+      "cheer": 2,
+      "closeness": 3,
+      "charming": 2
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "no",
+    "covers": {
+      "artist_zerokara_start": 4,
+      "artist_cy8er": 2,
+      "artist_appare!": 1,
+      "artist_stainy": 1,
+      "artist_animo": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
   },
   {
     "id": "member-09",
-    "name": "メンバー9",
-    "nameKo": "멤버 9",
-    "nameEn": "Member 9",
-    "groupId": "group-a",
-    "photoUrl": "https://placehold.co/400x400/FF6B9D/white?text=9",
-    "tags": ["energetic", "funny", "center"],
+    "name": "ゆん",
+    "nameKo": "윤",
+    "nameEn": "YUN",
+    "groupId": "REIEI",
+    "photoUrl": "https://assets.st-note.com/img/1761530595-P57NVQpG2HxLw6ktr49ufsCA.jpg?width=1200",
+    "tags": ["vocal", "energy", "gap"],
     "scores": {
-      "cute": 3,
+      "genre_loud": 3,
+      "genre_gothic": 2,
+      "face_fox": 1,
       "cool": 3,
-      "energetic": 5,
-      "calm": 1,
-      "funny": 4,
-      "mysterious": 2
+      "mysterious": 2,
+      "vocal": 3,
+      "energy": 3,
+      "charisma": 3,
+      "talk": 2,
+      "gap": 3
     },
-    "jpSupport": "unknown",
-    "covers": {}
+    "jpSupport": "ok",
+    "covers": {
+      "artist_neo_japonism": 2,
+      "artist_wagamama_rakia": 1,
+      "artist_jiemei": 2,
+      "artist_pimms": 1,
+      "artist_planck_stars": 1,
+      "artist_leiwan": 1,
+      "artist_higeki_no_heroine_syndrome": 1,
+      "artist_mercuro": 1,
+      "artist_monochrome": 1,
+      "artist_avam": 1
+    }
   },
   {
     "id": "member-10",
-    "name": "メンバー10",
-    "nameKo": "멤버 10",
-    "nameEn": "Member 10",
-    "groupId": "group-b",
-    "photoUrl": "https://placehold.co/400x400/7C5CFF/white?text=10",
-    "tags": ["calm", "cute", "eldest"],
+    "name": "セン",
+    "nameKo": "센",
+    "nameEn": "SEN",
+    "groupId": "REIEI",
+    "photoUrl": "https://assets.st-note.com/img/1761530619-3wqoUlKipInBkc2MbYAuGNSC.jpg?width=1200",
+    "tags": ["dance", "facial", "energy"],
     "scores": {
-      "cute": 4,
-      "cool": 2,
-      "energetic": 2,
-      "calm": 5,
-      "funny": 3,
-      "mysterious": 3
+      "genre_loud": 3,
+      "genre_orthodox": 2,
+      "face_cat": 2,
+      "pure": 2,
+      "elegant": 2,
+      "dance": 3,
+      "energy": 4,
+      "facial": 3,
+      "calm": 2,
+      "gap": 2
+    },
+    "jpSupport": "some",
+    "covers": {
+      "artist_neo_japonism": 2,
+      "artist_wagamama_rakia": 1,
+      "artist_jiemei": 1,
+      "artist_pimms": 1,
+      "artist_planck_stars": 1,
+      "artist_chula": 1,
+      "artist_nekopla_pixx": 1
+    }
+  },
+  {
+    "id": "member-11",
+    "name": "ヤン",
+    "nameKo": "얀",
+    "nameEn": "YAN",
+    "groupId": "AISYU",
+    "photoUrl": "https://assets.st-note.com/img/1761557440-ZzWSmecQPd9tIA7Ny8hs20nw.jpg?width=1200",
+    "tags": ["face_cat", "idol_polished", "healing"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_cat": 2,
+      "idol_polished": 1,
+      "healing": 2,
+      "growth": 2,
+      "comfort": 1,
+      "kind": 2,
+      "talk": 2
     },
     "jpSupport": "unknown",
-    "covers": {}
+    "covers": {
+      "artist_chula": 2,
+      "artist_a_lot_of_love!": 1,
+      "artist_asutori_no_usagi": 1,
+      "artist_fruits_zipper": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_shirokyan": 1
+    }
+  },
+  {
+    "id": "member-12",
+    "name": "イキ",
+    "nameKo": "이키",
+    "nameEn": "IKI",
+    "groupId": "AISYU",
+    "photoUrl": "https://assets.st-note.com/img/1761557462-3Vs9bRTYvg1E4qaGJNmHir0l.jpg?width=1200",
+    "tags": ["healing", "pure", "youthful"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_raccoon_dog": 2,
+      "pure": 2,
+      "youthful": 1,
+      "healing": 2,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_a_lot_of_love!": 1,
+      "artist_asutori_no_usagi": 1,
+      "artist_fruits_zipper": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_shirokyan": 1
+    }
+  },
+  {
+    "id": "member-13",
+    "name": "クリム",
+    "nameKo": "크림",
+    "nameEn": "CREME",
+    "groupId": "AISYU",
+    "photoUrl": "https://assets.st-note.com/img/1761557479-yoF93hC4eWZz0mdUHgNtIrB8.jpg?width=1200",
+    "tags": ["cute", "cheer", "growth"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 1,
+      "cute": 2,
+      "youthful": 1,
+      "growth": 2,
+      "cheer": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_a_lot_of_love!": 1,
+      "artist_asutori_no_usagi": 1,
+      "artist_fruits_zipper": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_shirokyan": 1
+    }
+  },
+  {
+    "id": "member-14",
+    "name": "モモ",
+    "nameKo": "모모",
+    "nameEn": "MOMO",
+    "groupId": "AISYU",
+    "photoUrl": "https://assets.st-note.com/img/1761557497-XjWeMQdzignY73kFRuBtEIf9.jpg?width=1200",
+    "tags": ["face_rabbit", "sexy", "idol_polished"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 2,
+      "sexy": 3,
+      "idol_polished": 1,
+      "growth": 2,
+      "presence": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_a_lot_of_love!": 1,
+      "artist_asutori_no_usagi": 1,
+      "artist_fruits_zipper": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_shirokyan": 1
+    }
+  },
+  {
+    "id": "member-15",
+    "name": "愛",
+    "nameKo": "아이",
+    "nameEn": "AI",
+    "groupId": "AMORE",
+    "photoUrl": "https://assets.st-note.com/img/1761486634-GNM54Y6wL9fZzuRvqyic7S13.jpg?width=1200",
+    "tags": ["face_rabbit", "expression", "charisma"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_yami": 1,
+      "face_rabbit": 3,
+      "pure": 2,
+      "idol_polished": 2,
+      "expression": 2,
+      "stability": 3,
+      "charisma": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_splash": 2,
+      "artist_un_known_world": 2,
+      "artist_utage": 1,
+      "artist_miracle_fanfare": 1,
+      "artist_natokan": 1
+    }
+  },
+  {
+    "id": "member-16",
+    "name": "モカ",
+    "nameKo": "모카",
+    "nameEn": "MOKA",
+    "groupId": "AMORE",
+    "photoUrl": "https://assets.st-note.com/img/1761486672-aDjCLmlnFU4fB9ShZI7wAbTq.jpg?width=1200",
+    "tags": ["sexy", "dance", "expression"],
+    "scores": {
+      "genre_alt": 3,
+      "face_raccoon_dog": 1,
+      "sexy": 3,
+      "elegant": 1,
+      "dance": 2,
+      "stability": 2,
+      "expression": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_splash": 2,
+      "artist_un_known_world": 2,
+      "artist_utage": 1,
+      "artist_miracle_fanfare": 1,
+      "artist_natokan": 1
+    }
+  },
+  {
+    "id": "member-17",
+    "name": "エクレア",
+    "nameKo": "에쿠레아",
+    "nameEn": "EKUREA",
+    "groupId": "AU",
+    "photoUrl": "https://assets.st-note.com/img/1761486696-9jwYghWnkq30HCGO2N1ZMFif.jpg?width=1200",
+    "tags": ["youthful", "healing", "presence"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 2,
+      "cute": 1,
+      "youthful": 2,
+      "healing": 2,
+      "presence": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_splash": 2,
+      "artist_un_known_world": 2,
+      "artist_utage": 1,
+      "artist_miracle_fanfare": 1,
+      "artist_natokan": 1
+    }
+  },
+  {
+    "id": "member-18",
+    "name": "チュイ",
+    "nameKo": "츄이",
+    "nameEn": "CHUI",
+    "groupId": "AMORE",
+    "photoUrl": "https://assets.st-note.com/img/1761486917-RlNsvpaB8ZGdKcFY3Q0AgJOV.jpg?width=1200",
+    "tags": ["elegant", "stability", "presence"],
+    "scores": {
+      "genre_orthodox": 1,
+      "face_rabbit": 2,
+      "elegant": 2,
+      "cool": 1,
+      "idol_kpop": 1,
+      "stability": 2,
+      "presence": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_splash": 2,
+      "artist_un_known_world": 2,
+      "artist_utage": 1,
+      "artist_miracle_fanfare": 1,
+      "artist_natokan": 1
+    }
+  },
+  {
+    "id": "member-19",
+    "name": "サラ",
+    "nameKo": "사라",
+    "nameEn": "SARA",
+    "groupId": "ANiMA",
+    "photoUrl": "https://assets.st-note.com/img/1761487010-AevXFSo5QG8zdk3KYB1VfMOq.jpg?width=1200",
+    "tags": ["elegant", "cool", "expression"],
+    "scores": {
+      "genre_dark": 1,
+      "genre_gothic": 2,
+      "face_fox": 1,
+      "elegant": 1,
+      "cool": 1,
+      "expression": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 2,
+      "artist_mercuro": 1,
+      "artist_misorado_edison": 1,
+      "artist_mad_medicine": 1,
+      "artist_tenrin": 1,
+      "artist_planck_stars": 1
+    }
+  },
+  {
+    "id": "member-20",
+    "name": "メイ",
+    "nameKo": "메이",
+    "nameEn": "MEI",
+    "groupId": "ANiMA",
+    "photoUrl": "https://assets.st-note.com/img/1761487034-YB5oIL6lO3ukWUN8mQHnJET1.jpg?width=1200",
+    "tags": ["face_cat", "cute", "energy"],
+    "scores": {
+      "genre_dark": 1,
+      "genre_gothic": 2,
+      "face_cat": 3,
+      "cute": 2,
+      "idol_polished": 1,
+      "dance": 1,
+      "energy": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 2,
+      "artist_mercuro": 1,
+      "artist_misorado_edison": 1,
+      "artist_mad_medicine": 1,
+      "artist_tenrin": 1,
+      "artist_planck_stars": 1
+    }
+  },
+  {
+    "id": "member-21",
+    "name": "ルコ",
+    "nameKo": "루코",
+    "nameEn": "RUKO",
+    "groupId": "ANiMA",
+    "photoUrl": "https://assets.st-note.com/img/1761487053-MXcFTN04Robq2BEDiWgsIl5P.jpg?width=1200",
+    "tags": ["cool", "mysterious", "stability"],
+    "scores": {
+      "genre_dark": 1,
+      "genre_gothic": 2,
+      "face_raccoon_dog": 1,
+      "cool": 1,
+      "mysterious": 2,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 2,
+      "artist_mercuro": 1,
+      "artist_misorado_edison": 1,
+      "artist_mad_medicine": 1,
+      "artist_tenrin": 1,
+      "artist_planck_stars": 1
+    }
+  },
+  {
+    "id": "member-22",
+    "name": "あみ",
+    "nameKo": "아미",
+    "nameEn": "AMI",
+    "groupId": "ANiMA",
+    "photoUrl": "https://assets.st-note.com/img/1761487072-d1zhw23uY0mytfHnArV4egJ9.jpg?width=1200",
+    "tags": ["face_rabbit", "cute"],
+    "scores": {
+      "genre_dark": 1,
+      "genre_gothic": 2,
+      "face_rabbit": 2,
+      "cute": 2,
+      "youthful": 2,
+      "mysterious": 1,
+      "energy": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 2,
+      "artist_mercuro": 1,
+      "artist_misorado_edison": 1,
+      "artist_mad_medicine": 1,
+      "artist_tenrin": 1,
+      "artist_planck_stars": 1
+    }
+  },
+  {
+    "id": "member-23",
+    "name": "肉",
+    "nameKo": "니쿠",
+    "nameEn": "NIKU",
+    "groupId": "A8Escape",
+    "photoUrl": "https://assets.st-note.com/img/1761487256-OpnK0U8253Mg9dfrbteWwvhB.jpg?width=1200",
+    "tags": ["face_squirrel", "energy", "youthful"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_dark": 1,
+      "face_squirrel": 2,
+      "cute": 1,
+      "youthful": 2,
+      "energy": 2,
+      "stability": 1,
+      "dance": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 1,
+      "artist_somosomo": 1,
+      "artist_planck_stars": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_ladybaby": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-24",
+    "name": "ユリ",
+    "nameKo": "유리",
+    "nameEn": "YURI",
+    "groupId": "A8Escape",
+    "photoUrl": "https://assets.st-note.com/img/1761487276-E7uQIhryC9gvlXojmDSiGOdK.jpg?width=1200",
+    "tags": ["face_cat", "cool", "presence"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_dark": 1,
+      "face_cat": 2,
+      "cool": 2,
+      "elegant": 1,
+      "mysterious": 1,
+      "dance": 1,
+      "presence": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 1,
+      "artist_somosomo": 1,
+      "artist_planck_stars": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_ladybaby": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-25",
+    "name": "キョウ",
+    "nameKo": "쿄우",
+    "nameEn": "KYOU",
+    "groupId": "A8Escape",
+    "photoUrl": "https://assets.st-note.com/img/1761487294-t2cs04TBoXyDuxj5QvkhpLCl.jpg?width=1200",
+    "tags": ["face_rabbit", "cute", "growth"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_dark": 1,
+      "face_rabbit": 2,
+      "cute": 1,
+      "youthful": 1,
+      "energy": 1,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 1,
+      "artist_somosomo": 1,
+      "artist_planck_stars": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_ladybaby": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-26",
+    "name": "みわ",
+    "nameKo": "미와",
+    "nameEn": "MIWA",
+    "groupId": "A8Escape",
+    "photoUrl": "https://assets.st-note.com/img/1761487315-zeVpr5yoQvXmNq8c3xAP6Twn.jpg?width=1200",
+    "tags": ["dance", "vocal", "facial"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_dark": 1,
+      "face_raccoon_dog": 1,
+      "mysterious": 1,
+      "unique": 1,
+      "dance": 2,
+      "vocal": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 1,
+      "artist_somosomo": 1,
+      "artist_planck_stars": 1,
+      "artist_nekopla_pixx": 1,
+      "artist_ladybaby": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-27",
+    "name": "イナ",
+    "nameKo": "이나",
+    "nameEn": "INA",
+    "groupId": "BETTER",
+    "photoUrl": "https://assets.st-note.com/img/1761487369-ga592qCSdNYD3otekAPyOsHF.jpg?width=1200",
+    "tags": ["pure", "expression", "presence"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_bird": 1,
+      "pure": 2,
+      "elegant": 2,
+      "expression": 1,
+      "facial": 1,
+      "presence": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_orchestra_tokyo": 3,
+      "artist_yosugala": 1,
+      "artist_airattic": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-28",
+    "name": "soda",
+    "nameKo": "소다",
+    "nameEn": "SODA",
+    "groupId": "BETTER",
+    "photoUrl": "https://assets.st-note.com/img/1761487392-eWFSCUuPQj25KONETd47t0Ml.jpg?width=1200",
+    "tags": ["cute", "vocal", "facial"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_raccoon_dog": 1,
+      "unique": 1,
+      "cute": 1,
+      "vocal": 2,
+      "energy": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_orchestra_tokyo": 3,
+      "artist_yosugala": 1,
+      "artist_airattic": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-29",
+    "name": "ツムギ",
+    "nameKo": "츠무기",
+    "nameEn": "TSUMUGI",
+    "groupId": "BETTER",
+    "photoUrl": "https://assets.st-note.com/img/1761487409-bdnLUuoxQeY68m3lSMBJR2Vv.jpg?width=1200",
+    "tags": ["facial", "youthful", "cute"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_raccoon_dog": 2,
+      "cute": 1,
+      "youthful": 2,
+      "growth": 2,
+      "presence": 1,
+      "facial": 3,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_orchestra_tokyo": 3,
+      "artist_yosugala": 1,
+      "artist_airattic": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-30",
+    "name": "M0NE(ミワン)",
+    "nameKo": "마왕",
+    "nameEn": "M0NE",
+    "groupId": "CLITZ",
+    "photoUrl": "https://assets.st-note.com/img/1761487480-iuCJ0XjxPlAZOKdVLMsRqgvD.jpg?width=1200",
+    "tags": ["vocal", "energy", "charisma"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 2,
+      "cool": 2,
+      "mysterious": 1,
+      "vocal": 3,
+      "expression": 1,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_aibeck": 2,
+      "artist_mistress": 1,
+      "artist_gratia_ala": 1,
+      "artist_wagamama_rakia": 1
+    }
+  },
+  {
+    "id": "member-31",
+    "name": "カナヲ",
+    "nameKo": "카나오",
+    "nameEn": "KANAO",
+    "groupId": "CLITZ",
+    "photoUrl": "https://assets.st-note.com/img/1761487499-KYETbmpZFXnN2oAL9Q8fkh03.jpg?width=1200",
+    "tags": ["energy", "expression", "vocal"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 2,
+      "elegant": 1,
+      "unique": 1,
+      "energy": 2,
+      "expression": 2,
+      "vocal": 1,
+      "kind": 2,
+      "social": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_aibeck": 2,
+      "artist_mistress": 1,
+      "artist_gratia_ala": 1,
+      "artist_wagamama_rakia": 1
+    }
+  },
+  {
+    "id": "member-32",
+    "name": "ゆきな",
+    "nameKo": "유키나",
+    "nameEn": "YUKINA",
+    "groupId": "CYBERNETICS",
+    "photoUrl": "https://assets.st-note.com/img/1761487547-fuH2QlvJDs64gRnEcM5qy1NX.jpg?width=1200",
+    "tags": ["vocal", "stability", "cute"],
+    "scores": {
+      "genre_cyber": 2,
+      "genre_loud": 1,
+      "face_rabbit": 1,
+      "cute": 1,
+      "youthful": 2,
+      "vocal": 2,
+      "stability": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_8bit": 2,
+      "artist_nekopla_pixx": 2,
+      "artist_tenrin": 1,
+      "artist_sui_sui": 1,
+      "artist_antithese": 1,
+      "artist_finger_runs": 1,
+      "artist_quubi": 1
+    }
+  },
+  {
+    "id": "member-33",
+    "name": "セイヤ",
+    "nameKo": "세이야",
+    "nameEn": "SEIYA",
+    "groupId": "CYBERNETICS",
+    "photoUrl": "https://assets.st-note.com/img/1761487567-ZJXpFB8vV2eYCxHtmPA4RW5w.jpg?width=1200",
+    "tags": ["cool", "charisma", "presence"],
+    "scores": {
+      "genre_cyber": 2,
+      "genre_loud": 1,
+      "face_fox": 2,
+      "cool": 3,
+      "unique": 1,
+      "charisma": 1,
+      "expression": 1,
+      "presence": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_8bit": 2,
+      "artist_nekopla_pixx": 2,
+      "artist_tenrin": 1,
+      "artist_sui_sui": 1,
+      "artist_antithese": 1,
+      "artist_finger_runs": 1,
+      "artist_quubi": 1
+    }
+  },
+  {
+    "id": "member-34",
+    "name": "ロジ",
+    "nameKo": "로지",
+    "nameEn": "ROSI",
+    "groupId": "CYBERNETICS",
+    "photoUrl": "https://assets.st-note.com/img/1761487584-TOEpbPH0N5x1Qgc7M8DAkRZe.jpg?width=1200",
+    "tags": ["cool", "mysterious", "presence"],
+    "scores": {
+      "genre_cyber": 2,
+      "genre_loud": 1,
+      "face_fox": 2,
+      "cool": 2,
+      "mysterious": 1,
+      "presence": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_8bit": 2,
+      "artist_nekopla_pixx": 2,
+      "artist_tenrin": 1,
+      "artist_sui_sui": 1,
+      "artist_antithese": 1,
+      "artist_finger_runs": 1,
+      "artist_quubi": 1
+    }
+  },
+  {
+    "id": "member-35",
+    "name": "イチ",
+    "nameKo": "이치",
+    "nameEn": "ICHI",
+    "groupId": "CYBERNETICS",
+    "photoUrl": "https://assets.st-note.com/img/1761487600-VNQxFmtMjSDlXaHy69qRUZ7G.jpg?width=1200",
+    "tags": ["vocal", "energy", "cool"],
+    "scores": {
+      "genre_cyber": 2,
+      "genre_loud": 1,
+      "face_fox": 2,
+      "cool": 2,
+      "mysterious": 1,
+      "energy": 1,
+      "vocal": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_8bit": 2,
+      "artist_nekopla_pixx": 2,
+      "artist_tenrin": 1,
+      "artist_sui_sui": 1,
+      "artist_antithese": 1,
+      "artist_finger_runs": 1,
+      "artist_quubi": 1
+    }
+  },
+  {
+    "id": "member-36",
+    "name": "はに",
+    "nameKo": "하니",
+    "nameEn": "HANI",
+    "groupId": "EITSUKU",
+    "photoUrl": "https://assets.st-note.com/img/1761487842-bxKvG5pVIXy2qrH07dNks1BW.jpg?width=1200",
+    "tags": ["cute", "youthful", "healing"],
+    "scores": {
+      "genre_orthodox": 3,
+      "face_raccoon_dog": 1,
+      "cute": 1,
+      "youthful": 2,
+      "healing": 1,
+      "facial": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_world_standard": 2,
+      "artist_kyururin_tte_shitemite": 1
+    }
+  },
+  {
+    "id": "member-37",
+    "name": "ちょ",
+    "nameKo": "쵸",
+    "nameEn": "CHYO",
+    "groupId": "EITSUKU",
+    "photoUrl": "https://assets.st-note.com/img/1761487870-GgPWkF9de3tIC0EUKAMqaD5V.jpg?width=1200",
+    "tags": ["cute", "healing", "growth"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_chick": 1,
+      "cute": 1,
+      "youthful": 2,
+      "healing": 1,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_world_standard": 2,
+      "artist_kyururin_tte_shitemite": 1
+    }
+  },
+  {
+    "id": "member-38",
+    "name": "ちび",
+    "nameKo": "치비",
+    "nameEn": "CHIBI",
+    "groupId": "EITSUKU",
+    "photoUrl": "https://assets.st-note.com/img/1761487888-fWKxezVAU2BOLmjIaYNXZJb0.jpg?width=1200",
+    "tags": ["face_squirrel", "idol_polished", "pure"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_squirrel": 2,
+      "cute": 2,
+      "pure": 2,
+      "idol_polished": 1,
+      "youthful": 1,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_world_standard": 2,
+      "artist_kyururin_tte_shitemite": 1
+    }
+  },
+  {
+    "id": "member-39",
+    "name": "しゅしゅ",
+    "nameKo": "슈슈",
+    "nameEn": "SHUSHU",
+    "groupId": "EITSUKU",
+    "photoUrl": "https://assets.st-note.com/img/1761487903-R8M2QHjZbpyIGXKgDrk4hYfu.jpg?width=1200",
+    "tags": ["cute", "growth", "facial"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_cat": 1,
+      "cute": 1,
+      "youthful": 1,
+      "growth": 2,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_the_world_standard": 2,
+      "artist_kyururin_tte_shitemite": 1
+    }
+  },
+  {
+    "id": "member-40",
+    "name": "ハチ",
+    "nameKo": "하치",
+    "nameEn": "HACHI",
+    "groupId": "HAPEEZ",
+    "photoUrl": "https://assets.st-note.com/img/1761488285-CIzgOuSNLrqZHw2c734V8i5t.jpg?width=1200",
+    "tags": ["dance", "vocal", "stability"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_dog": 2,
+      "cute": 1,
+      "youthful": 1,
+      "dance": 2,
+      "vocal": 2,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 1,
+      "artist_planck_stars": 1,
+      "artist_jiemei": 1,
+      "artist_tenrin": 1,
+      "artist_silent_noise": 1
+    }
+  },
+  {
+    "id": "member-41",
+    "name": "夢",
+    "nameKo": "유메",
+    "nameEn": "YUME",
+    "groupId": "HAPEEZ",
+    "photoUrl": "https://assets.st-note.com/img/1761488306-ZYz2P9KuvdHRUTOjq4BfaJ5D.jpg?width=1200",
+    "tags": ["cute", "unique", "energy"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_cat": 1,
+      "unique": 1,
+      "cute": 1,
+      "energy": 1,
+      "kind": 2,
+      "talk": 2,
+      "dance": 1
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 1,
+      "artist_planck_stars": 1,
+      "artist_jiemei": 1,
+      "artist_tenrin": 1,
+      "artist_silent_noise": 1
+    }
+  },
+  {
+    "id": "member-42",
+    "name": "イゴ",
+    "nameKo": "이고",
+    "nameEn": "IGO",
+    "groupId": "HAPEEZ",
+    "photoUrl": "https://assets.st-note.com/img/1761488322-w3myXjR9Be24oZ1Cu0fJ6xdq.jpg?width=1200",
+    "tags": ["cute", "expression", "energy"],
+    "scores": {
+      "genre_loud": 2,
+      "genre_alt": 1,
+      "face_fox": 1,
+      "mysterious": 2,
+      "cute": 1,
+      "expression": 1,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 1,
+      "artist_planck_stars": 1,
+      "artist_jiemei": 1,
+      "artist_tenrin": 1,
+      "artist_silent_noise": 1
+    }
+  },
+  {
+    "id": "member-43",
+    "name": "える",
+    "nameKo": "에루",
+    "nameEn": "ERU",
+    "groupId": "HINONAKA",
+    "photoUrl": "https://assets.st-note.com/img/1761488507-LakE4Te2CODKs8wg0ASlHFXV.jpg?width=1200",
+    "tags": ["face_rabbit", "pure", "dance"],
+    "scores": {
+      "genre_orthodox": 3,
+      "face_rabbit": 2,
+      "pure": 2,
+      "idol_polished": 2,
+      "vocal": 1,
+      "dance": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_babababanbi": 2,
+      "artist_ilife": 2,
+      "artist_shirokyan": 1,
+      "artist_8bit": 1,
+      "artist_cho_tokimeki_sendenbu": 1,
+      "artist_yumemiru_adolescence": 2,
+      "artist_tebasaki_sensation": 1
+    }
+  },
+  {
+    "id": "member-44",
+    "name": "あや",
+    "nameKo": "아야",
+    "nameEn": "AYA",
+    "groupId": "HINONAKA",
+    "photoUrl": "https://assets.st-note.com/img/1761488527-SDaxFYMGTyPc1C3fjrWhqZe2.jpg?width=1200",
+    "tags": ["vocal", "expression", "pure"],
+    "scores": {
+      "genre_orthodox": 3,
+      "face_fox": 1,
+      "pure": 2,
+      "cute": 1,
+      "vocal": 3,
+      "expression": 1,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_babababanbi": 2,
+      "artist_ilife": 2,
+      "artist_shirokyan": 1,
+      "artist_8bit": 1,
+      "artist_cho_tokimeki_sendenbu": 1,
+      "artist_yumemiru_adolescence": 2,
+      "artist_tebasaki_sensation": 1
+    }
+  },
+  {
+    "id": "member-45",
+    "name": "なお",
+    "nameKo": "나오",
+    "nameEn": "NAO",
+    "groupId": "HURUCHU",
+    "photoUrl": "https://assets.st-note.com/img/1761488715-mirHf1h23FJgseoxCzI8WdqX.jpg?width=1200",
+    "tags": ["facial", "healing", "growth"],
+    "scores": {
+      "genre_orthodox": 3,
+      "face_dog": 2,
+      "healing": 2,
+      "pure": 2,
+      "facial": 2,
+      "growth": 2,
+      "dance": 1,
+      "kind": 2,
+      "social": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_dramatic_records": 2,
+      "artist_zerokara_start": 1,
+      "artist_love9love": 1,
+      "artist_niji_no_conquistador": 1,
+      "artist_honey_spice_re": 1,
+      "artist_utage": 2
+    }
+  },
+  {
+    "id": "member-46",
+    "name": "はつ",
+    "nameKo": "하츠",
+    "nameEn": "HEARTS",
+    "groupId": "HURUCHU",
+    "photoUrl": "https://assets.st-note.com/img/1761488732-58KBkOIFtxvCJTupga916z0f.jpg?width=1200",
+    "tags": ["vocal", "talk", "elegant"],
+    "scores": {
+      "genre_orthodox": 3,
+      "face_fox": 2,
+      "elegant": 2,
+      "mysterious": 1,
+      "vocal": 3,
+      "expression": 1,
+      "growth": 1,
+      "talk": 2,
+      "closeness": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_dramatic_records": 2,
+      "artist_zerokara_start": 1,
+      "artist_love9love": 1,
+      "artist_niji_no_conquistador": 1,
+      "artist_honey_spice_re": 1,
+      "artist_utage": 2
+    }
+  },
+  {
+    "id": "member-47",
+    "name": "えすい",
+    "nameKo": "에스이",
+    "nameEn": "S2",
+    "groupId": "JIBAKU",
+    "photoUrl": "https://assets.st-note.com/img/1761489007-wVHa4GpABPD0QhIbXZyMLrJi.jpg?width=1200",
+    "tags": ["growth", "youthful", "stability"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_dark": 1,
+      "face_fox": 2,
+      "mysterious": 2,
+      "youthful": 1,
+      "stability": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_megafon": 2,
+      "artist_8bit": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-48",
+    "name": "ねお",
+    "nameKo": "네오",
+    "nameEn": "NE0",
+    "groupId": "JIBAKU",
+    "photoUrl": "https://assets.st-note.com/img/1761489025-5VhJuKEjSI6Dg0BsGPid13R9.jpg?width=1200",
+    "tags": ["cute", "youthful", "pure"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_dark": 1,
+      "face_dog": 1,
+      "cute": 1,
+      "youthful": 2,
+      "pure": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_megafon": 2,
+      "artist_8bit": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-49",
+    "name": "チズ",
+    "nameKo": "치즈",
+    "nameEn": "CHEE2E",
+    "groupId": "JIBAKU",
+    "photoUrl": "https://assets.st-note.com/img/1761489051-8esVBzOcdi32KEL1pjruyRIo.jpg?width=1200",
+    "tags": ["face_squirrel", "youthful", "energy"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_dark": 1,
+      "face_squirrel": 1,
+      "mysterious": 2,
+      "youthful": 1,
+      "energy": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_megafon": 2,
+      "artist_8bit": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-50",
+    "name": "ピか",
+    "nameKo": "피카",
+    "nameEn": "P1KA",
+    "groupId": "JIBAKU",
+    "photoUrl": "https://assets.st-note.com/img/1761489071-Uyo5P1lbRiMVuwECZhQFqWrJ.jpg?width=1200",
+    "tags": ["face_chick", "cute", "youthful"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_dark": 1,
+      "face_chick": 2,
+      "cute": 1,
+      "youthful": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_megafon": 2,
+      "artist_8bit": 1,
+      "artist_nonfict": 1
+    }
+  },
+  {
+    "id": "member-51",
+    "name": "つる",
+    "nameKo": "츠루",
+    "nameEn": "TSURU",
+    "groupId": "KAGERERU",
+    "photoUrl": "https://assets.st-note.com/img/1761489125-b9vK1QzIFLSUEPA50x2486wO.jpg?width=1200",
+    "tags": ["face_rabbit", "youthful", "charming"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_rabbit": 2,
+      "cute": 2,
+      "youthful": 2,
+      "idol_polished": 1,
+      "expression": 1,
+      "stability": 1,
+      "recognition": 2,
+      "charming": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_fes_tive": 3,
+      "artist_appare": 3,
+      "artist_chula": 2,
+      "artist_jya_pon": 1,
+      "artist_utage": 1
+    }
+  },
+  {
+    "id": "member-52",
+    "name": "空",
+    "nameKo": "소라",
+    "nameEn": "SORA",
+    "groupId": "KAGERERU",
+    "photoUrl": "https://assets.st-note.com/img/1761489146-IJUKX9n5EkdSZYCOalsLWNTo.jpg?width=1200",
+    "tags": ["elegant", "vocal", "mysterious"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_cat": 2,
+      "elegant": 2,
+      "mysterious": 1,
+      "cool": 1,
+      "charisma": 1,
+      "vocal": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_fes_tive": 3,
+      "artist_appare": 3,
+      "artist_chula": 2,
+      "artist_jya_pon": 1,
+      "artist_utage": 1
+    }
+  },
+  {
+    "id": "member-53",
+    "name": "イヴ",
+    "nameKo": "이브",
+    "nameEn": "EVVE",
+    "groupId": "KAGERERU",
+    "photoUrl": "https://assets.st-note.com/img/1761489176-7CscEQ8y3F45hJXITAzaY2tk.jpg",
+    "tags": ["youthful", "energy", "sexy"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_dog": 1,
+      "sexy": 2,
+      "cute": 1,
+      "youthful": 1,
+      "energy": 2,
+      "facial": 1,
+      "kind": 2,
+      "closeness": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_fes_tive": 3,
+      "artist_appare": 3,
+      "artist_chula": 2,
+      "artist_jya_pon": 1,
+      "artist_utage": 1
+    }
+  },
+  {
+    "id": "member-54",
+    "name": "ミニ",
+    "nameKo": "미니",
+    "nameEn": "MINI",
+    "groupId": "KAGERERU",
+    "photoUrl": "https://assets.st-note.com/img/1761489190-yhfD5KjLAS01eT8Hvmpi7xaR.jpg?width=1200",
+    "tags": ["face_squirrel", "idol_kpop", "pure"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_squirrel": 2,
+      "cute": 2,
+      "pure": 3,
+      "idol_kpop": 2,
+      "dance": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_fes_tive": 3,
+      "artist_appare": 3,
+      "artist_chula": 2,
+      "artist_jya_pon": 1,
+      "artist_utage": 1
+    }
+  },
+  {
+    "id": "member-55",
+    "name": "ピピ",
+    "nameKo": "삐삐",
+    "nameEn": "PPIPPI",
+    "groupId": "KAGERERU",
+    "photoUrl": "https://assets.st-note.com/img/1761489207-L6JK5UFbaCmgOPxz7iEWhlkY.jpg?width=1200",
+    "tags": ["youthful", "energy", "growth"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_raccoon_dog": 1,
+      "youthful": 2,
+      "healing": 1,
+      "pure": 1,
+      "energy": 2,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_fes_tive": 3,
+      "artist_appare": 3,
+      "artist_chula": 2,
+      "artist_jya_pon": 1,
+      "artist_utage": 1
+    }
+  },
+  {
+    "id": "member-56",
+    "name": "ポヨ",
+    "nameKo": "포요",
+    "nameEn": "PPOYO",
+    "groupId": "LuciDreaM",
+    "photoUrl": "https://assets.st-note.com/img/1761489655-5TSyju2Jk4a1rPCgI6oGtlme.jpg?width=1200",
+    "tags": ["face_rabbit", "charisma", "unique"],
+    "scores": {
+      "genre_loud": 3,
+      "face_rabbit": 1,
+      "unique": 2,
+      "mysterious": 1,
+      "vocal": 2,
+      "charisma": 2,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_gang_parade": 1,
+      "artist_neo_japonism": 1,
+      "artist_wagamama_rakia": 2
+    }
+  },
+  {
+    "id": "member-57",
+    "name": "ゆな",
+    "nameKo": "유나",
+    "nameEn": "YUNA",
+    "groupId": "LuciDreaM",
+    "photoUrl": "https://assets.st-note.com/img/1761489672-ovATw7gxJ6ifZkIaGzpXchLr.jpg?width=1200",
+    "tags": ["vocal", "energy", "cool"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 1,
+      "cool": 2,
+      "unique": 1,
+      "vocal": 3,
+      "energy": 2,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_gang_parade": 1,
+      "artist_neo_japonism": 1,
+      "artist_wagamama_rakia": 2
+    }
+  },
+  {
+    "id": "member-58",
+    "name": "リア",
+    "nameKo": "리아",
+    "nameEn": "RIA",
+    "groupId": "LuciDreaM",
+    "photoUrl": "https://assets.st-note.com/img/1761489694-n1fJUYa42ksG8dSyQL50NHC6.jpg?width=1200",
+    "tags": ["expression", "vocal", "mysterious"],
+    "scores": {
+      "genre_loud": 3,
+      "face_raccoon_dog": 1,
+      "mysterious": 2,
+      "sexy": 1,
+      "vocal": 3,
+      "expression": 3,
+      "charisma": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_gang_parade": 1,
+      "artist_neo_japonism": 1,
+      "artist_wagamama_rakia": 2
+    }
+  },
+  {
+    "id": "member-59",
+    "name": "DIA",
+    "nameKo": "다이아",
+    "nameEn": "DIA",
+    "groupId": "MEMORIA",
+    "photoUrl": "https://assets.st-note.com/img/1761496412-BKuijJkneQXhdEtRcGqMbIvP.jpg?width=1200",
+    "tags": ["dance", "energy", "facial"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_raccoon_dog": 2,
+      "elegant": 1,
+      "idol_kpop": 1,
+      "dance": 2,
+      "facial": 2,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ringwanderung": 2,
+      "artist_jiemei": 2,
+      "artist_uijin": 1,
+      "artist_babyraids_japan": 1
+    }
+  },
+  {
+    "id": "member-60",
+    "name": "Rose",
+    "nameKo": "로즈",
+    "nameEn": "Rose",
+    "groupId": "MEMORIA",
+    "photoUrl": "https://assets.st-note.com/img/1761496434-h09jCuAUGDKBT4igPNMqvrxy.jpg?width=1200",
+    "tags": ["face_cat", "idol_kpop", "facial"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_cat": 2,
+      "sexy": 1,
+      "idol_kpop": 2,
+      "elegant": 2,
+      "stability": 2,
+      "facial": 2,
+      "kind": 2,
+      "social": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ringwanderung": 2,
+      "artist_jiemei": 2,
+      "artist_uijin": 1,
+      "artist_babyraids_japan": 1
+    }
+  },
+  {
+    "id": "member-61",
+    "name": "LEMON",
+    "nameKo": "레몬",
+    "nameEn": "LEMON",
+    "groupId": "MEMORIA",
+    "photoUrl": "https://assets.st-note.com/img/1761496455-0WBS4OxIgdnALova82jHuVzm.jpg?width=1200",
+    "tags": ["pure", "energy", "facial"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_orthodox": 1,
+      "face_raccoon_dog": 1,
+      "pure": 1,
+      "elegant": 1,
+      "energy": 1,
+      "stability": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ringwanderung": 2,
+      "artist_jiemei": 2,
+      "artist_uijin": 1,
+      "artist_babyraids_japan": 1
+    }
+  },
+  {
+    "id": "member-62",
+    "name": "ナビ",
+    "nameKo": "나비",
+    "nameEn": "NAB2",
+    "groupId": "Mewro",
+    "photoUrl": "https://assets.st-note.com/img/1761496699-G2WTujzIOhiCglH7eUx6PDJa.jpg?width=1200",
+    "tags": ["idol_kpop", "pure", "facial"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 2,
+      "cute": 1,
+      "pure": 2,
+      "idol_kpop": 3,
+      "facial": 2,
+      "charisma": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_prsmin": 2,
+      "artist_uijin": 1,
+      "artist_tebasaki_sensation": 1
+    }
+  },
+  {
+    "id": "member-63",
+    "name": "ロハ",
+    "nameKo": "로하",
+    "nameEn": "R0HA",
+    "groupId": "Mewro",
+    "photoUrl": "https://assets.st-note.com/img/1761496720-Mn3PxzNquodwW9ZCrmUlDKsT.jpg?width=1200",
+    "tags": ["face_squirrel", "healing", "stability"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_squirrel": 1,
+      "healing": 2,
+      "mysterious": 1,
+      "stability": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_prsmin": 2,
+      "artist_uijin": 1,
+      "artist_tebasaki_sensation": 1
+    }
+  },
+  {
+    "id": "member-64",
+    "name": "ヒア",
+    "nameKo": "히아",
+    "nameEn": "H1AH",
+    "groupId": "Mewro",
+    "photoUrl": "https://assets.st-note.com/img/1761496736-Z38fGU4JH0mirOxMhFWza2CT.jpg?width=1200",
+    "tags": ["elegant", "dance", "face_cat"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_cat": 2,
+      "elegant": 1,
+      "cool": 2,
+      "mysterious": 1,
+      "dance": 1,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 2,
+      "artist_prsmin": 2,
+      "artist_uijin": 1,
+      "artist_tebasaki_sensation": 1
+    }
+  },
+  {
+    "id": "member-65",
+    "name": "ゆい",
+    "nameKo": "유이",
+    "nameEn": "YUI",
+    "groupId": "monQ",
+    "photoUrl": "https://assets.st-note.com/img/1761496970-P2swJe0ANYfRVrlhUqvOHbMK.jpg?width=1200",
+    "tags": ["face_rabbit", "dance", "energy"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_loud": 1,
+      "face_rabbit": 3,
+      "cute": 2,
+      "youthful": 2,
+      "idol_polished": 1,
+      "dance": 1,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_hibana": 1,
+      "artist_merry_bad_tune": 1,
+      "artist_megamegami": 1,
+      "artist_nemuri_orca": 1
+    }
+  },
+  {
+    "id": "member-66",
+    "name": "リオン",
+    "nameKo": "리온",
+    "nameEn": "R1:on",
+    "groupId": "monQ",
+    "photoUrl": "https://assets.st-note.com/img/1761496991-GaCqxeYlRPZBKN4H61nctiJT.jpg?width=1200",
+    "tags": ["pure", "face_squirrel", "mysterious"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_loud": 1,
+      "face_squirrel": 1,
+      "cool": 1,
+      "pure": 1,
+      "mysterious": 2,
+      "energy": 1,
+      "presence": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_hibana": 1,
+      "artist_merry_bad_tune": 1,
+      "artist_megamegami": 1,
+      "artist_nemuri_orca": 1
+    }
+  },
+  {
+    "id": "member-67",
+    "name": "ピュア",
+    "nameKo": "퓨어",
+    "nameEn": "PURE",
+    "groupId": "monQ",
+    "photoUrl": "https://assets.st-note.com/img/1761497008-erdKATZPbR02QNFGgsVBjf9Y.jpg?width=1200",
+    "tags": ["elegant", "expression", "idol_kpop"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_loud": 1,
+      "face_dog": 1,
+      "elegant": 2,
+      "idol_kpop": 2,
+      "pure": 1,
+      "expression": 1,
+      "charisma": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_hibana": 1,
+      "artist_merry_bad_tune": 1,
+      "artist_megamegami": 1,
+      "artist_nemuri_orca": 1
+    }
+  },
+  {
+    "id": "member-68",
+    "name": "うさ",
+    "nameKo": "우사",
+    "nameEn": "USA",
+    "groupId": "monQ",
+    "photoUrl": "https://assets.st-note.com/img/1761497023-7A5LnWKaJ08u1vYHIGCcsbyO.jpg?width=1200",
+    "tags": ["face_rabbit", "pure", "youthful"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_loud": 1,
+      "face_rabbit": 3,
+      "cute": 2,
+      "pure": 2,
+      "youthful": 2,
+      "growth": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "some",
+    "covers": {
+      "artist_hibana": 1,
+      "artist_merry_bad_tune": 1,
+      "artist_megamegami": 1,
+      "artist_nemuri_orca": 1
+    }
+  },
+  {
+    "id": "member-69",
+    "name": "きゅう",
+    "nameKo": "KYU",
+    "nameEn": "큐우",
+    "groupId": "monQ",
+    "photoUrl": "https://assets.st-note.com/img/1761497042-VpR8o2wrmbh6SfackC9iKZYQ.jpg?width=1200",
+    "tags": ["healing", "facial", "cute"],
+    "scores": {
+      "genre_denpa": 2,
+      "genre_loud": 1,
+      "face_rabbit": 1,
+      "cute": 1,
+      "healing": 1,
+      "vocal": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_hibana": 1,
+      "artist_merry_bad_tune": 1,
+      "artist_megamegami": 1,
+      "artist_nemuri_orca": 1
+    }
+  },
+  {
+    "id": "member-70",
+    "name": "ソハ",
+    "nameKo": "소하",
+    "nameEn": "SOHA",
+    "groupId": "NEKIRU",
+    "photoUrl": "https://assets.st-note.com/img/1761497496-2S7HiVhOQuRXaGCPFWkNnErb.jpg?width=1200",
+    "tags": ["energy", "charisma", "vocal"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 1,
+      "cool": 2,
+      "unique": 1,
+      "dance": 2,
+      "vocal": 2,
+      "charisma": 2,
+      "energy": 3,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ladybaby": 2,
+      "artist_tenrin": 1,
+      "artist_bis": 1,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-71",
+    "name": "ユズ",
+    "nameKo": "유즈",
+    "nameEn": "YUZU",
+    "groupId": "NEKIRU",
+    "photoUrl": "https://assets.st-note.com/img/1761497516-OMWBhGeQYjawVmLv1TpSsg28.jpg?width=1200",
+    "tags": ["vocal", "expression", "youthful"],
+    "scores": {
+      "genre_loud": 3,
+      "face_raccoon_dog": 2,
+      "youthful": 2,
+      "healing": 1,
+      "vocal": 3,
+      "energy": 2,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ladybaby": 2,
+      "artist_tenrin": 1,
+      "artist_bis": 1,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-72",
+    "name": "ライ",
+    "nameKo": "라이",
+    "nameEn": "RAI",
+    "groupId": "NEKIRU",
+    "photoUrl": "https://assets.st-note.com/img/1761497532-62Ll9vQGtgB7iOUCyXqDnmcY.jpg?width=1200",
+    "tags": ["elegant", "facial", "dance"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 1,
+      "elegant": 2,
+      "pure": 1,
+      "vocal": 2,
+      "dance": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_ladybaby": 2,
+      "artist_tenrin": 1,
+      "artist_bis": 1,
+      "artist_bish": 1
+    }
+  },
+  {
+    "id": "member-73",
+    "name": "ゼロ",
+    "nameKo": "제로",
+    "nameEn": "Zer0",
+    "groupId": "NOLIMIT",
+    "photoUrl": "https://assets.st-note.com/img/1761497863-H0TVf4qwuox6ekEDM9aYn3m2.jpg?width=1200",
+    "tags": ["face_squirrel", "expression", "facial"],
+    "scores": {
+      "genre_loud": 3,
+      "face_squirrel": 3,
+      "cute": 2,
+      "youthful": 1,
+      "dance": 1,
+      "expression": 2,
+      "facial": 3,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_finger_runs": 1,
+      "artist_antithese": 1
+    }
+  },
+  {
+    "id": "member-74",
+    "name": "ユリコ",
+    "nameKo": "유리코",
+    "nameEn": "YURIKO",
+    "groupId": "NOLIMIT",
+    "photoUrl": "https://assets.st-note.com/img/1761497886-uXTsVE9o6SIpCcjYg24PHBk5.jpg?width=1200",
+    "tags": ["charisma", "vocal", "energy"],
+    "scores": {
+      "genre_loud": 3,
+      "face_rabbit": 1,
+      "cute": 1,
+      "pure": 1,
+      "charisma": 2,
+      "vocal": 3,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_finger_runs": 1,
+      "artist_antithese": 1
+    }
+  },
+  {
+    "id": "member-75",
+    "name": "ルカ",
+    "nameKo": "루카",
+    "nameEn": "7uka",
+    "groupId": "NOLIMIT",
+    "photoUrl": "https://assets.st-note.com/img/1761497905-5GOXzPTNVkCliDfqwd2m1JB0.jpg?width=1200",
+    "tags": ["expression", "stability", "cool"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 1,
+      "face_fox": 1,
+      "cool": 2,
+      "mysterious": 2,
+      "stability": 1,
+      "energy": 1,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_finger_runs": 1,
+      "artist_antithese": 1
+    }
+  },
+  {
+    "id": "member-76",
+    "name": "ベニ",
+    "nameKo": "베니",
+    "nameEn": "VENI",
+    "groupId": "NOLIMIT",
+    "photoUrl": "https://assets.st-note.com/img/1768850588-Ld3XfZ0oCNaFgwiKkjB4thAu.jpg?width=1200",
+    "tags": ["youthful", "vocal", "facial"],
+    "scores": {
+      "genre_loud": 3,
+      "face_squirrel": 1,
+      "cute": 1,
+      "youthful": 2,
+      "vocal": 2,
+      "energy": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_finger_runs": 1,
+      "artist_antithese": 1
+    }
+  },
+  {
+    "id": "member-77",
+    "name": "みこ",
+    "nameKo": "미코",
+    "nameEn": "MIKO",
+    "groupId": "ORIKA",
+    "photoUrl": "https://assets.st-note.com/img/1761498208-hVlGpNAO0tDgZE6CWvfJcoSb.jpg?width=1200",
+    "tags": ["pure", "vocal", "stability"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_denpa": 1,
+      "face_raccoon_dog": 1,
+      "pure": 3,
+      "healing": 2,
+      "vocal": 2,
+      "stability": 2,
+      "facial": 2,
+      "kind": 2,
+      "social": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_inuwasi": 1,
+      "artist_ringwanderung": 1,
+      "artist_lily": 1,
+      "artist_axelight": 1
+    }
+  },
+  {
+    "id": "member-78",
+    "name": "ゆつき",
+    "nameKo": "유츠키",
+    "nameEn": "UTSUKI",
+    "groupId": "ORIKA",
+    "photoUrl": "https://assets.st-note.com/img/1761498229-c4YvQP2WyzfT7sS0KDJCIi1A.jpg?width=1200",
+    "tags": ["vocal", "expression", "energy"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_denpa": 1,
+      "face_squirrel": 1,
+      "cute": 1,
+      "unique": 1,
+      "vocal": 2,
+      "expression": 2,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_inuwasi": 1,
+      "artist_ringwanderung": 1,
+      "artist_lily": 1,
+      "artist_axelight": 1
+    }
+  },
+  {
+    "id": "member-79",
+    "name": "あやか",
+    "nameKo": "아야카",
+    "nameEn": "AYAKA",
+    "groupId": "ORIKA",
+    "photoUrl": "https://assets.st-note.com/img/1761498246-1syCIpvlKoeSU80Vt396uwTA.jpg?width=1200",
+    "tags": ["youthful", "vocal", "dance"],
+    "scores": {
+      "genre_alt": 2,
+      "genre_denpa": 1,
+      "face_dog": 2,
+      "youthful": 2,
+      "healing": 2,
+      "dance": 2,
+      "vocal": 2,
+      "facial": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_inuwasi": 1,
+      "artist_ringwanderung": 1,
+      "artist_lily": 1,
+      "artist_axelight": 1
+    }
+  },
+  {
+    "id": "member-80",
+    "name": "ことり",
+    "nameKo": "코토리",
+    "nameEn": "KOTORI",
+    "groupId": "RESTART",
+    "photoUrl": "https://assets.st-note.com/img/1761498816-d9WhSD8ul2cJk4igQCLPN67m.jpg?width=1200",
+    "tags": ["idol_polished", "stability", "facial"],
+    "scores": {
+      "genre_loud": 1,
+      "genre_denpa": 1,
+      "genre_cyber": 1,
+      "face_bird": 3,
+      "cute": 1,
+      "idol_polished": 2,
+      "dance": 2,
+      "stability": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 3,
+      "artist_fes_tive": 1,
+      "artist_utage": 1,
+      "artist_the_banana_monkeys": 1
+    }
+  },
+  {
+    "id": "member-81",
+    "name": "ミオン",
+    "nameKo": "미온",
+    "nameEn": "M1ON",
+    "groupId": "RESTART",
+    "photoUrl": "https://assets.st-note.com/img/1761498840-OLJA1T3KC9gSnMo4hrWP6FVu.jpg?width=1200",
+    "tags": ["elegant", "presence", "pure"],
+    "scores": {
+      "genre_loud": 1,
+      "genre_denpa": 1,
+      "genre_cyber": 1,
+      "face_fox": 1,
+      "elegant": 2,
+      "pure": 1,
+      "mysterious": 1,
+      "growth": 1,
+      "presence": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 3,
+      "artist_fes_tive": 1,
+      "artist_utage": 1,
+      "artist_the_banana_monkeys": 1
+    }
+  },
+  {
+    "id": "member-82",
+    "name": "リユ",
+    "nameKo": "리유",
+    "nameEn": "RIYU",
+    "groupId": "RESTART",
+    "photoUrl": "https://assets.st-note.com/img/1761498862-maexhHvnd8TjSWABKZ5y49FQ.jpg?width=1200",
+    "tags": ["pure", "idol_kpop", "facial"],
+    "scores": {
+      "genre_loud": 1,
+      "genre_denpa": 1,
+      "genre_cyber": 1,
+      "face_fox": 1,
+      "pure": 2,
+      "idol_kpop": 2,
+      "dance": 1,
+      "presence": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_nekopla_pixx": 3,
+      "artist_fes_tive": 1,
+      "artist_utage": 1,
+      "artist_the_banana_monkeys": 1
+    }
+  },
+  {
+    "id": "member-83",
+    "name": "ルビ",
+    "nameKo": "루비",
+    "nameEn": "RUBY",
+    "groupId": "SOLANIN",
+    "photoUrl": "https://assets.st-note.com/img/1761500157-XrCxzSn0UD6M4ot5FEapByT9.jpg?width=1200",
+    "tags": ["expression", "dance", "vocal"],
+    "scores": {
+      "genre_alt": 3,
+      "face_rabbit": 1,
+      "cute": 1,
+      "pure": 1,
+      "dance": 3,
+      "vocal": 2,
+      "expression": 3,
+      "talk": 2,
+      "closeness": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_yosugala": 3,
+      "artist_inuwasi": 1,
+      "artist_airattic": 1,
+      "artist_ringwanderung": 1,
+      "artist_devil_anthem": 1,
+      "artist_meltnoom": 1
+    }
+  },
+  {
+    "id": "member-84",
+    "name": "ツバサ",
+    "nameKo": "츠바사",
+    "nameEn": "TSUBASA",
+    "groupId": "SOLANIN",
+    "photoUrl": "https://assets.st-note.com/img/1761500192-Nj3Pp5UuIKHLSbzqOAareM7v.jpg?width=1200",
+    "tags": ["stability", "vocal", "energy"],
+    "scores": {
+      "genre_alt": 3,
+      "face_raccoon_dog": 2,
+      "healing": 1,
+      "youthful": 1,
+      "vocal": 2,
+      "stability": 3,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "some",
+    "covers": {
+      "artist_yosugala": 3,
+      "artist_inuwasi": 1,
+      "artist_airattic": 1,
+      "artist_ringwanderung": 1,
+      "artist_devil_anthem": 1,
+      "artist_meltnoom": 1
+    }
+  },
+  {
+    "id": "member-85",
+    "name": "ミレ",
+    "nameKo": "미래",
+    "nameEn": "MIRAE",
+    "groupId": "SOAROVER",
+    "photoUrl": "https://assets.st-note.com/img/1761500247-5xpEPWvXKj21qUThGyBSrdgQ.jpg?width=1200",
+    "tags": ["dance", "charisma", "energy"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 1,
+      "cool": 2,
+      "unique": 1,
+      "dance": 3,
+      "charisma": 2,
+      "energy": 3,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_jiemei": 3,
+      "artist_babymetal": 2,
+      "artist_megamegami": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1,
+      "artist_gang_parade": 1,
+      "artist_az_on": 1
+    }
+  },
+  {
+    "id": "member-86",
+    "name": "リン",
+    "nameKo": "린",
+    "nameEn": "Lin",
+    "groupId": "SOAROVER",
+    "photoUrl": "https://assets.st-note.com/img/1761500269-DXuG03vyFemPK47oLAdQpYWh.jpg?width=1200",
+    "tags": ["energy", "expression", "youthful"],
+    "scores": {
+      "genre_loud": 3,
+      "face_dog": 2,
+      "healing": 1,
+      "youthful": 1,
+      "expression": 1,
+      "energy": 2,
+      "stability": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 3,
+      "artist_babymetal": 2,
+      "artist_megamegami": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1,
+      "artist_gang_parade": 1,
+      "artist_az_on": 1
+    }
+  },
+  {
+    "id": "member-87",
+    "name": "ノア",
+    "nameKo": "노아",
+    "nameEn": "Noa",
+    "groupId": "SOAROVER",
+    "photoUrl": "https://assets.st-note.com/img/1761500291-jFcsC5PHuNOgldnyXfWDwRI0.jpg?width=1200",
+    "tags": ["face_cat", "idol_kpop", "facial"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 2,
+      "idol_kpop": 2,
+      "elegant": 2,
+      "facial": 3,
+      "charisma": 2,
+      "dance": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_jiemei": 3,
+      "artist_babymetal": 2,
+      "artist_megamegami": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1,
+      "artist_gang_parade": 1,
+      "artist_az_on": 1
+    }
+  },
+  {
+    "id": "member-88",
+    "name": "ユアン",
+    "nameKo": "유안",
+    "nameEn": "uAn",
+    "groupId": "SOAROVER",
+    "photoUrl": "https://assets.st-note.com/img/1761500311-fhE30Vud7gqJlLrX6cPFjIxD.jpg?width=1200",
+    "tags": ["elegant", "dance", "charisma"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 2,
+      "cool": 1,
+      "elegant": 2,
+      "dance": 2,
+      "charisma": 2,
+      "energy": 3,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jiemei": 3,
+      "artist_babymetal": 2,
+      "artist_megamegami": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1,
+      "artist_gang_parade": 1,
+      "artist_az_on": 1
+    }
+  },
+  {
+    "id": "member-89",
+    "name": "レエマイ",
+    "nameKo": "레에마이",
+    "nameEn": "REMA",
+    "groupId": "UGOPOUPEE",
+    "photoUrl": "https://assets.st-note.com/img/1761500855-jw943RkTmVnUGCMb0Di5rXFE.jpg?width=1200",
+    "tags": ["expression", "dance", "cool"],
+    "scores": {
+      "genre_loud": 3,
+      "face_fox": 2,
+      "cool": 2,
+      "mysterious": 1,
+      "expression": 2,
+      "dance": 1,
+      "stability": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_antithese": 2,
+      "artist_wagamama_rakia": 2,
+      "artist_jiemei": 1,
+      "artist_misorado_edison": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-90",
+    "name": "まいな",
+    "nameKo": "마이나",
+    "nameEn": "MAINA",
+    "groupId": "UGOPOUPEE",
+    "photoUrl": "https://assets.st-note.com/img/1768899120-Ucz9lDK1oAjt7X0TqeVyOCLw.jpg?width=1200",
+    "tags": ["face_rabbit", "facial", "vocal"],
+    "scores": {
+      "genre_loud": 3,
+      "face_rabbit": 2,
+      "cute": 2,
+      "youthful": 2,
+      "idol_polished": 1,
+      "facial": 2,
+      "vocal": 1,
+      "energy": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_antithese": 2,
+      "artist_wagamama_rakia": 2,
+      "artist_jiemei": 1,
+      "artist_misorado_edison": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-91",
+    "name": "シュン",
+    "nameKo": "슌",
+    "nameEn": "SHUN",
+    "groupId": "UGOPOUPEE",
+    "photoUrl": "https://assets.st-note.com/img/1768899138-hiCu7qH0bwt3Qk46MEY5UvLG.jpg?width=1200",
+    "tags": ["energy", "cute", "expression"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 1,
+      "sexy": 2,
+      "cute": 1,
+      "expression": 1,
+      "energy": 2,
+      "dance": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_antithese": 2,
+      "artist_wagamama_rakia": 2,
+      "artist_jiemei": 1,
+      "artist_misorado_edison": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-92",
+    "name": "NANA",
+    "nameKo": "나나",
+    "nameEn": "NANA",
+    "groupId": "UGOPOUPEE",
+    "photoUrl": "https://assets.st-note.com/img/1768899154-uAOqh1xlgnztEeU4akT82Pp5.jpg?width=1200",
+    "tags": ["vocal", "charisma", "mysterious"],
+    "scores": {
+      "genre_loud": 3,
+      "face_cat": 2,
+      "elegant": 1,
+      "mysterious": 2,
+      "vocal": 2,
+      "charisma": 2,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_antithese": 2,
+      "artist_wagamama_rakia": 2,
+      "artist_jiemei": 1,
+      "artist_misorado_edison": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-93",
+    "name": "EN",
+    "nameKo": "엔",
+    "nameEn": "EN",
+    "groupId": "UGOPOUPEE",
+    "photoUrl": "https://assets.st-note.com/img/1768899169-m6E1h5R2NpSvHJtlzxaZ0jOg.jpg?width=1200",
+    "tags": ["energy", "facial", "cool"],
+    "scores": {
+      "genre_loud": 3,
+      "face_dog": 1,
+      "cute": 1,
+      "cool": 2,
+      "energy": 2,
+      "stability": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_antithese": 2,
+      "artist_wagamama_rakia": 2,
+      "artist_jiemei": 1,
+      "artist_misorado_edison": 1,
+      "artist_bis": 1
+    }
+  },
+  {
+    "id": "member-94",
+    "name": "セリ",
+    "nameKo": "세리",
+    "nameEn": "SERI",
+    "groupId": "WISHLIZ",
+    "photoUrl": "https://assets.st-note.com/img/1761501003-06Rb2vZLDe8wnFtQluNYJ5c4.jpg",
+    "tags": ["pure", "vocal", "idol_kpop"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_fox": 2,
+      "pure": 2,
+      "cool": 1,
+      "idol_kpop": 2,
+      "vocal": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_shirokyan": 2,
+      "artist_zerokara_start": 2,
+      "artist_pimms": 1,
+      "artist_chula": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
+  },
+  {
+    "id": "member-95",
+    "name": "チョア",
+    "nameKo": "초아",
+    "nameEn": "CHOA",
+    "groupId": "WISHLIZ",
+    "photoUrl": "https://assets.st-note.com/img/1761501025-hwoTSzueB7N284JCOMZgav1U.jpg",
+    "tags": ["facial", "elegant", "growth"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_squirrel": 1,
+      "sexy": 2,
+      "elegant": 1,
+      "facial": 2,
+      "stability": 1,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_shirokyan": 2,
+      "artist_zerokara_start": 2,
+      "artist_pimms": 1,
+      "artist_chula": 1,
+      "artist_papipupepo_wa_muzukashii": 1
+    }
+  },
+  {
+    "id": "member-96",
+    "name": "ヒロ",
+    "nameKo": "히로",
+    "nameEn": "HIRO",
+    "groupId": "WISHLIZ",
+    "photoUrl": "https://assets.st-note.com/img/1768907236-qanHM8f6BFT3AYrCh9VkjcOb.jpg",
+    "tags": ["face_rabbit", "healing", "facial"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_rabbit": 2,
+      "cute": 2,
+      "healing": 2,
+      "youthful": 1,
+      "stability": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_shirokyan": 2,
+      "artist_zerokara_start": 2,
+      "artist_pimms": 1,
+      "artist_chula": 1,
+      "artist_papipupepo_wa_muzukashii": 1,
+      "artist_niji_no_conquistador": 1
+    }
+  },
+  {
+    "id": "member-97",
+    "name": "ゆき",
+    "nameKo": "유키",
+    "nameEn": "YUKI",
+    "groupId": "YOZOPURE",
+    "photoUrl": "https://assets.st-note.com/img/1761501073-uJZrT2sLHOaGP1KphU0cfk7i.jpg?width=1200",
+    "tags": ["elegant", "idol_kpop", "energy"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_fox": 1,
+      "elegant": 2,
+      "idol_kpop": 2,
+      "energy": 2,
+      "presence": 1,
+      "facial": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jams_collection": 3,
+      "artist_babyraids_japan": 1,
+      "artist_shirokyan": 1,
+      "artist_niji_no_conquistador": 1,
+      "artist_utage": 1,
+      "artist_26ji_no_masquerade": 1
+    }
+  },
+  {
+    "id": "member-98",
+    "name": "ハレ",
+    "nameKo": "하레",
+    "nameEn": "HARE",
+    "groupId": "YOZOPURE",
+    "photoUrl": "https://assets.st-note.com/img/1761501094-9lmSrWP5fQI2ZghukxK41DGc.jpg?width=1200",
+    "tags": ["vocal", "pure", "expression"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 1,
+      "pure": 2,
+      "healing": 1,
+      "vocal": 3,
+      "expression": 2,
+      "dance": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jams_collection": 3,
+      "artist_babyraids_japan": 1,
+      "artist_shirokyan": 1,
+      "artist_niji_no_conquistador": 1,
+      "artist_utage": 1,
+      "artist_26ji_no_masquerade": 1
+    }
+  },
+  {
+    "id": "member-99",
+    "name": "エバー",
+    "nameKo": "에버",
+    "nameEn": "EVER",
+    "groupId": "YOZOPURE",
+    "photoUrl": "https://assets.st-note.com/img/1761501115-Ded83BX2VskWJrHCpRvLnmGo.jpg?width=1200",
+    "tags": ["dance", "expression", "presence"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_magical": 1,
+      "face_rabbit": 1,
+      "sexy": 2,
+      "idol_kpop": 2,
+      "dance": 2,
+      "expression": 1,
+      "presence": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_jams_collection": 3,
+      "artist_babyraids_japan": 1,
+      "artist_shirokyan": 1,
+      "artist_niji_no_conquistador": 1,
+      "artist_utage": 1,
+      "artist_26ji_no_masquerade": 1
+    }
+  },
+  {
+    "id": "member-100",
+    "name": "かな",
+    "nameKo": "카나",
+    "nameEn": "KANA",
+    "groupId": "YUMEKI",
+    "photoUrl": "https://assets.st-note.com/img/1761529261-KGExyzXsRALFNPVOid6jS42U.jpg?width=1200",
+    "tags": ["facial", "cute", "idol_kpop"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_squirrel": 1,
+      "idol_kpop": 2,
+      "cute": 1,
+      "idol_polished": 2,
+      "facial": 2,
+      "presence": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_nekopla_pixx": 1,
+      "artist_yakousei_amuse": 1,
+      "artist_zerokara_start": 1
+    }
+  },
+  {
+    "id": "member-101",
+    "name": "きりえ",
+    "nameKo": "키리에",
+    "nameEn": "KIRIE",
+    "groupId": "YUMEKI",
+    "photoUrl": "https://assets.st-note.com/img/1761529288-LuHBjT1m9iaChfPJDOYl5NFk.jpg?width=1200",
+    "tags": ["cute", "growth", "energy"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_rabbit": 1,
+      "cute": 1,
+      "youthful": 2,
+      "healing": 1,
+      "growth": 2,
+      "energy": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_nekopla_pixx": 1,
+      "artist_yakousei_amuse": 1,
+      "artist_zerokara_start": 1
+    }
+  },
+  {
+    "id": "member-102",
+    "name": "さこ",
+    "nameKo": "사코",
+    "nameEn": "SAKO",
+    "groupId": "YUMEKI",
+    "photoUrl": "https://assets.st-note.com/img/1761529307-Txu3LNHwlmW72C1iOcUVGBzM.jpg?width=1200",
+    "tags": ["pure", "facial", "face_cat"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_cat": 1,
+      "pure": 2,
+      "mysterious": 1,
+      "dance": 1,
+      "facial": 2,
+      "growth": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_nekopla_pixx": 1,
+      "artist_yakousei_amuse": 1,
+      "artist_zerokara_start": 1
+    }
+  },
+  {
+    "id": "member-103",
+    "name": "みお",
+    "nameKo": "미오",
+    "nameEn": "MIO",
+    "groupId": "YUMEKI",
+    "photoUrl": "https://assets.st-note.com/img/1761529325-9HLMD8ZtJ5jvU46Cnu0ORTaz.jpg?width=1200",
+    "tags": ["pure", "face_cat", "youthful"],
+    "scores": {
+      "genre_orthodox": 2,
+      "genre_denpa": 1,
+      "face_cat": 2,
+      "pure": 2,
+      "cute": 2,
+      "youthful": 2,
+      "facial": 2,
+      "growth": 1,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_chula": 2,
+      "artist_nekopla_pixx": 1,
+      "artist_yakousei_amuse": 1,
+      "artist_zerokara_start": 1
+    }
+  },
+  {
+    "id": "member-104",
+    "name": "深淵の夢",
+    "nameKo": "신엔노유메",
+    "nameEn": "shinennoyume",
+    "groupId": "SHINENNOYUME",
+    "photoUrl": "https://assets.st-note.com/img/1761530413-sFLKI4wNBqfvrel96R8EzAyV.jpg?width=1200",
+    "tags": ["vocal", "cute", "comfort"],
+    "scores": {
+      "genre_dark": 2,
+      "genre_alt": 1,
+      "face_rabbit": 2,
+      "youthful": 2,
+      "cute": 2,
+      "vocal": 2,
+      "energy": 2,
+      "facial": 2,
+      "kind": 2,
+      "comfort": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_jiemei": 1,
+      "artist_mercuro": 1,
+      "artist_leiwan": 1,
+      "artist_higeki_no_heroine_syndrome": 1,
+      "artist_avam": 1
+    }
+  },
+  {
+    "id": "member-105",
+    "name": "ラク",
+    "nameKo": "라쿠",
+    "nameEn": "RAKU",
+    "groupId": "ZZZ",
+    "photoUrl": "https://assets.st-note.com/img/1761530465-3r0Z4qPO8kjTFVBR5dSMHn2I.jpg?width=1200",
+    "tags": ["healing", "stability", "expression"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_fox": 1,
+      "healing": 1,
+      "cute": 1,
+      "stability": 2,
+      "expression": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_zerokara_start": 1,
+      "artist_eisei_to_karate": 1,
+      "artist_pimms": 1,
+      "artist_momoiro_clover_z": 1,
+      "artist_shiritsu_ebisu_chugaku": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1
+    }
+  },
+  {
+    "id": "member-106",
+    "name": "トモリ",
+    "nameKo": "토모리",
+    "nameEn": "TOMORI",
+    "groupId": "ZZZ",
+    "photoUrl": "https://assets.st-note.com/img/1761530485-R0IkDK6ZgQbrl5Fa2GwoOTxU.jpg?width=1200",
+    "tags": ["vocal", "idol_polished", "cute"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_rabbit": 2,
+      "cute": 2,
+      "youthful": 2,
+      "idol_polished": 2,
+      "vocal": 2,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "some",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_zerokara_start": 1,
+      "artist_eisei_to_karate": 1,
+      "artist_pimms": 1,
+      "artist_momoiro_clover_z": 1,
+      "artist_shiritsu_ebisu_chugaku": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1
+    }
+  },
+  {
+    "id": "member-107",
+    "name": "コル",
+    "nameKo": "코루",
+    "nameEn": "KORU",
+    "groupId": "ZZZ",
+    "photoUrl": "https://assets.st-note.com/img/1761530502-X73hGAxfTOVvkoQRKpr1tU2H.jpg?width=1200",
+    "tags": ["elegant", "energy", "sexy"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_fox": 1,
+      "sexy": 3,
+      "elegant": 2,
+      "facial": 2,
+      "energy": 2,
+      "dance": 1,
+      "closeness": 2,
+      "gap": 2
+    },
+    "jpSupport": "no",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_zerokara_start": 1,
+      "artist_eisei_to_karate": 1,
+      "artist_pimms": 1,
+      "artist_momoiro_clover_z": 1,
+      "artist_shiritsu_ebisu_chugaku": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1
+    }
+  },
+  {
+    "id": "member-108",
+    "name": "ワール",
+    "nameKo": "와루",
+    "nameEn": "WARRIOR",
+    "groupId": "ZZZ",
+    "photoUrl": "https://assets.st-note.com/img/1761530519-lKWJr7u2XV1R4zULOcI9xeSn.jpg?width=1200",
+    "tags": ["dance", "energy", "expression"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_raccoon_dog": 1,
+      "mysterious": 1,
+      "idol_kpop": 1,
+      "dance": 3,
+      "expression": 2,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_zerokara_start": 1,
+      "artist_eisei_to_karate": 1,
+      "artist_pimms": 1,
+      "artist_momoiro_clover_z": 1,
+      "artist_shiritsu_ebisu_chugaku": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1
+    }
+  },
+  {
+    "id": "member-109",
+    "name": "アリサ",
+    "nameKo": "아리사",
+    "nameEn": "ARISA",
+    "groupId": "ZZZ",
+    "photoUrl": "https://assets.st-note.com/img/1761530537-DOVLFet9PIz7whZx0MKy3uon.jpg?width=1200",
+    "tags": ["idol_kpop", "elegant", "expression"],
+    "scores": {
+      "genre_denpa": 3,
+      "face_cat": 1,
+      "idol_kpop": 3,
+      "elegant": 2,
+      "dance": 1,
+      "expression": 1,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_leiwan": 2,
+      "artist_zerokara_start": 1,
+      "artist_eisei_to_karate": 1,
+      "artist_pimms": 1,
+      "artist_momoiro_clover_z": 1,
+      "artist_shiritsu_ebisu_chugaku": 1,
+      "artist_zettai_chokkyuu_joshi_playballs": 1
+    }
+  },
+  {
+    "id": "member-110",
+    "name": "ぱるあ",
+    "nameKo": "파루아",
+    "nameEn": "PARUA",
+    "groupId": "MSYH",
+    "photoUrl": "https://assets.st-note.com/img/1761530688-MwOW9vdibc24zRH6NPSZjlmC.jpg?width=1200",
+    "tags": ["vocal", "expression", "cute"],
+    "scores": {
+      "genre_gothic": 1,
+      "genre_dark": 2,
+      "face_cat": 1,
+      "mysterious": 2,
+      "cute": 1,
+      "vocal": 2,
+      "facial": 2,
+      "expression": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_phantom_siita": 3,
+      "artist_avam": 1,
+      "artist_mad_medicine": 1,
+      "artist_mazari": 1
+    }
+  },
+  {
+    "id": "member-111",
+    "name": "タナ",
+    "nameKo": "타나",
+    "nameEn": "TANA",
+    "groupId": "MSYH",
+    "photoUrl": "https://assets.st-note.com/img/1761530707-uC7hQBGlrW8mZ9H5wPnAvgxK.jpg?width=1200",
+    "tags": ["energy", "vocal", "cool"],
+    "scores": {
+      "genre_gothic": 1,
+      "genre_dark": 2,
+      "face_dog": 2,
+      "cool": 1,
+      "unique": 2,
+      "vocal": 1,
+      "expression": 1,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_phantom_siita": 3,
+      "artist_avam": 1,
+      "artist_mad_medicine": 1,
+      "artist_mazari": 1
+    }
+  },
+  {
+    "id": "member-112",
+    "name": "どい",
+    "nameKo": "도희",
+    "nameEn": "Dohee",
+    "groupId": "MSYH",
+    "photoUrl": "https://assets.st-note.com/img/1761530732-e4J9VEcaOCwmnu0USHyYzBTL.jpg?width=1200",
+    "tags": ["expression", "charisma", "unique"],
+    "scores": {
+      "genre_gothic": 1,
+      "genre_dark": 2,
+      "face_raccoon_dog": 1,
+      "mysterious": 2,
+      "unique": 2,
+      "vocal": 1,
+      "expression": 2,
+      "charisma": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_phantom_siita": 3,
+      "artist_avam": 1,
+      "artist_mad_medicine": 1,
+      "artist_mazari": 1
+    }
+  },
+  {
+    "id": "member-113",
+    "name": "こい",
+    "nameKo": "코이",
+    "nameEn": "KOI",
+    "groupId": "MSYH",
+    "photoUrl": "https://assets.st-note.com/img/1761530748-o3u0rkhdENJvbcsBlmnK6GXA.jpg?width=1200",
+    "tags": ["energy", "dance", "pure"],
+    "scores": {
+      "genre_gothic": 1,
+      "genre_dark": 2,
+      "face_fox": 1,
+      "pure": 2,
+      "mysterious": 1,
+      "dance": 2,
+      "expression": 1,
+      "energy": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "unknown",
+    "covers": {
+      "artist_phantom_siita": 3,
+      "artist_avam": 1,
+      "artist_mad_medicine": 1,
+      "artist_mazari": 1
+    }
+  },
+  {
+    "id": "member-114",
+    "name": "はにゃ",
+    "nameKo": "한야",
+    "nameEn": "Hanya",
+    "groupId": "MSYH",
+    "photoUrl": "https://assets.st-note.com/img/1761530767-DZ1dbL4RxfJ3qEy9elz2KrCQ.jpg?width=1200",
+    "tags": ["expression", "vocal", "facial"],
+    "scores": {
+      "genre_gothic": 1,
+      "genre_dark": 2,
+      "face_dog": 2,
+      "healing": 1,
+      "mysterious": 2,
+      "expression": 3,
+      "vocal": 2,
+      "facial": 2,
+      "kind": 2,
+      "talk": 2
+    },
+    "jpSupport": "ok",
+    "covers": {
+      "artist_phantom_siita": 3,
+      "artist_avam": 1,
+      "artist_mad_medicine": 1,
+      "artist_mazari": 1
+    }
   }
 ]

@@ -59,7 +59,7 @@ export default function ResultMemberCard({
         {/* 横並びレイアウト */}
         <div className="flex">
           {/* 画像（左側） */}
-          <div className="relative w-2/5 aspect-[3/4] flex-shrink-0 overflow-hidden">
+          <div className="relative w-1/2 aspect-[4/3] flex-shrink-0 overflow-hidden">
             {isExternal ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
@@ -91,20 +91,20 @@ export default function ResultMemberCard({
           </div>
 
           {/* 情報エリア（右側） */}
-          <div className="flex-1 p-4 flex flex-col justify-center">
+          <div className="flex-1 p-5 flex flex-col justify-center space-y-3">
             {/* 名前とエモジ */}
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-3">
               <span className="text-2xl">{style.emoji}</span>
-              <h3 className="text-lg font-bold text-gray-800 leading-tight">{name}</h3>
+              <h3 className="text-xl font-bold text-gray-800 leading-tight">{name}</h3>
             </div>
 
             {/* 属性タグ */}
-            <div className="mb-2">
+            <div>
               <AttributeTagList tags={member.tags} locale={locale} maxDisplay={3} />
             </div>
 
             {/* スコア情報 */}
-            <div className="text-xs text-gray-400 space-y-0.5">
+            <div className="text-xs text-gray-400 space-y-1">
               <div className="flex justify-between">
                 <span>Score</span>
                 <span>{candidate.surveyScore.toFixed(1)}</span>
