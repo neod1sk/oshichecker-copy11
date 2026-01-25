@@ -39,19 +39,19 @@ export default function QuestionCard({
       next: "次へ",
       skip: "スキップする",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} 選択中（最低 ${min}）`,
-      genreTitle: "好きなジャンル（最大2つまで）",
+      genreTitle: "好きなジャンル\n（※最大2つまで）",
     },
     ko: {
       next: "다음",
       skip: "건너뛰기",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} 선택됨 (최소 ${min})`,
-      genreTitle: "좋아하는 장르 (최대 2개)",
+      genreTitle: "좋아하는 장르\n（*최대 2개）",
     },
     en: {
       next: "Next",
       skip: "Skip",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} selected (min ${min})`,
-      genreTitle: "Favorite genres (up to 2)",
+      genreTitle: "Favorite Genres\n(up to 2)",
     },
   } as const;
 
@@ -209,7 +209,18 @@ export default function QuestionCard({
       </div>
 
       {/* 質問文 */}
-      <h2 className="text-lg font-bold text-gray-800 text-center mb-6 leading-relaxed">
+    <h2
+      className={`text-lg font-bold text-gray-800 text-center mb-6 leading-relaxed ${
+        question.id === "q_cover_artist" ||
+        question.id === "q_genre_worldview" ||
+        question.id === "q_face_animal" ||
+        question.id === "q_vibe_style" ||
+        question.id === "q_performance_focus" ||
+        question.id === "q_event_communication"
+          ? "whitespace-pre-line"
+          : ""
+      }`}
+    >
         {questionText}
       </h2>
 

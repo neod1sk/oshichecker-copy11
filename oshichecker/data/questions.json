@@ -4,15 +4,15 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 2,
-    "text": "好きなジャンル・世界観（最大2つまで選択）",
-    "textKo": "좋아하는 장르・세계관 (최대 2개 선택)",
+    "text": "好きなジャンル\n（※最大2つまで）",
+    "textKo": "좋아하는 장르\n（*최대 2개）",
     "textEn": "Favorite genres / worlds (choose up to 2)",
     "options": [
       {
         "id": "orthodox",
         "text": "王道系（キラキラ・正統派）",
-        "textKo": "정통/왕도",
-        "textEn": "Orthodox / classic idol",
+        "textKo": "왕도형 (반짝반짝/정통파)",
+        "textEn": "Orthodox Style (Sparkly)",
         "scoreKey": "genre_orthodox",
         "scores": {
           "genre_orthodox": 1
@@ -21,8 +21,8 @@
       {
         "id": "denpa",
         "text": "電波系（かわいい・テンション高め）",
-        "textKo": "뎀파/텐션 높음",
-        "textEn": "Denpa / high-tension cute",
+        "textKo": "덴파형 (텐션 높은 스타일)",
+        "textEn": "Denpa Style (Cute/High-Energy)",
         "scoreKey": "genre_denpa",
         "scores": {
           "genre_denpa": 1
@@ -31,8 +31,8 @@
       {
         "id": "loud",
         "text": "ラウド系（ロック・激しめ）",
-        "textKo": "라우드/록",
-        "textEn": "Loud / rock",
+        "textKo": "라우드형 (록/강렬함)",
+        "textEn": "Loud Style (Rock & Aggressive)",
         "scoreKey": "genre_loud",
         "scores": {
           "genre_loud": 1
@@ -41,8 +41,8 @@
       {
         "id": "alt",
         "text": "オルタナ系（個性派・アート寄り）",
-        "textKo": "얼터너티브/개성파",
-        "textEn": "Alternative / artsy",
+        "textKo": "얼터너티브형 (아트 감성)",
+        "textEn": "Alternative Style (Artistic)",
         "scoreKey": "genre_alt",
         "scores": {
           "genre_alt": 1
@@ -50,9 +50,9 @@
       },
       {
         "id": "dark",
-        "text": "地雷／闇かわ系（ダーク・世界観重視）",
-        "textKo": "다크/지뢰/얌카와",
-        "textEn": "Dark / yami-kawaii",
+        "text": "地雷／闇かわ系（ダーク・世界観）",
+        "textKo": "지뢰계 (세계관 중시)",
+        "textEn": "Dark Cute Style",
         "scoreKey": "genre_dark",
         "scores": {
           "genre_dark": 1
@@ -60,9 +60,9 @@
       },
       {
         "id": "gothic",
-        "text": "ゴシック系（退廃・荘厳・闇世界）",
-        "textKo": "고딕/퇴폐",
-        "textEn": "Gothic / decadent",
+        "text": "ゴシック系（退廃美・荘厳） ",
+        "textKo": "고딕형 (퇴폐/다크 월드)",
+        "textEn": "Gothic Style (Decadent)",
         "scoreKey": "genre_gothic",
         "scores": {
           "genre_gothic": 1
@@ -71,8 +71,8 @@
       {
         "id": "cyber",
         "text": "サイバー系（近未来・デジタル）",
-        "textKo": "사이버/미래지향",
-        "textEn": "Cyber / futuristic",
+        "textKo": "사이버형 (근미래/디지털)",
+        "textEn": "Cyber Style (Futuristic)",
         "scoreKey": "genre_cyber",
         "scores": {
           "genre_cyber": 1
@@ -81,21 +81,11 @@
       {
         "id": "magical",
         "text": "魔法少女系（可愛い×闇要素）",
-        "textKo": "마법소녀",
-        "textEn": "Magical girl (cute × dark)",
+        "textKo": "마법소녀형 (귀여움×다크 요소)",
+        "textEn": "Magical Girl (Cute × Dark)",
         "scoreKey": "genre_magical",
         "scores": {
           "genre_magical": 1
-        }
-      },
-      {
-        "id": "yami",
-        "text": "病み・メンヘラ系（感情表現・共感型）",
-        "textKo": "야미/멘헤라",
-        "textEn": "Yami / menhera",
-        "scoreKey": "genre_yami",
-        "scores": {
-          "genre_yami": 1
         }
       }
     ]
@@ -105,9 +95,9 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 5,
-    "text": "好きな日本の地下アイドル（カバー原曲）※最大5つまで",
-    "textKo": "좋아하는 일본 인디 아이돌(커버 원곡) 최대 5개",
-    "textEn": "Favorite JP underground idol originals (pick up to 5)",
+    "text": "好きな日本の地下アイドル\n（※最大5つまで）",
+    "textKo": "좋아하는 일본 지하아이돌\n（*최대 5개）",
+    "textEn": "Favorite JP Underground Idols\n(up to 5)",
     "options": [
       {
         "id": "artist_a_lot_of_love!",
@@ -900,15 +890,15 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 2,
-    "text": "好きな顔の系統（最大2つまで選択）",
-    "textKo": "좋아하는 얼굴 계통 (최대 2개 선택)",
-    "textEn": "Preferred face vibe (pick up to 2)",
+    "text": "好きな顔の系統\n（※最大2つまで）",
+    "textKo": "좋아하는 얼굴상\n（*최대 2개）",
+    "textEn": "Preferred Face Vibe\n(up to 2)",
     "options": [
       {
         "id": "cat",
         "text": "猫顔",
         "textKo": "고양이상",
-        "textEn": "Cat-like (cool, tsundere)",
+        "textEn": "Cat-type face",
         "scoreKey": "face_cat",
         "scores": {
           "face_cat": 1
@@ -918,7 +908,7 @@
         "id": "dog",
         "text": "犬顔",
         "textKo": "강아지상",
-        "textEn": "Dog-like (bright, friendly)",
+        "textEn": "Dog-type face",
         "scoreKey": "face_dog",
         "scores": {
           "face_dog": 1
@@ -928,7 +918,7 @@
         "id": "rabbit",
         "text": "ウサギ顔",
         "textKo": "토끼상",
-        "textEn": "Rabbit-like (cute, protectable)",
+        "textEn": "Rabbit-type face",
         "scoreKey": "face_rabbit",
         "scores": {
           "face_rabbit": 1
@@ -938,7 +928,7 @@
         "id": "tanuki",
         "text": "タヌキ顔",
         "textKo": "너구리상",
-        "textEn": "Tanuki-like (healing, gentle)",
+        "textEn": "Tanuki-type face",
         "scoreKey": "face_raccoon_dog",
         "scores": {
           "face_raccoon_dog": 1
@@ -948,7 +938,7 @@
         "id": "fox",
         "text": "キツネ顔",
         "textKo": "여우상",
-        "textEn": "Fox-like (sharp, mature)",
+        "textEn": "Fox-type face",
         "scoreKey": "face_fox",
         "scores": {
           "face_fox": 1
@@ -958,7 +948,7 @@
         "id": "squirrel",
         "text": "リス顔",
         "textKo": "다람쥐상",
-        "textEn": "Squirrel-like (tiny, charming)",
+        "textEn": "Squirrel-type face",
         "scoreKey": "face_squirrel",
         "scores": {
           "face_squirrel": 1
@@ -968,7 +958,7 @@
         "id": "chick",
         "text": "ひよこ顔",
         "textKo": "병아리상",
-        "textEn": "Chick-like (fresh, young)",
+        "textEn": "Chick-type face",
         "scoreKey": "face_chick",
         "scores": {
           "face_chick": 1
@@ -977,8 +967,8 @@
       {
         "id": "bird",
         "text": "小鳥顔",
-        "textKo": "작은 새상",
-        "textEn": "Little-bird-like (delicate)",
+        "textKo": "코토리상",
+        "textEn": "Little-bird-type face",
         "scoreKey": "face_bird",
         "scores": {
           "face_bird": 1
@@ -991,9 +981,9 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 3,
-    "text": "好きな雰囲気・容姿タイプ（最大3つまで選択）",
-    "textKo": "좋아하는 분위기·외모 타입 (최대 3개 선택)",
-    "textEn": "Preferred vibe / appearance (pick up to 3)",
+    "text": "好きな雰囲気・容姿タイプ\n（※最大3つまで）",
+    "textKo": "좋아하는 분위기·외모 스타일\n（*최대 3개）",
+    "textEn": "Preferred Vibe & Appearance\n(up to 3)",
     "options": [
       {
         "id": "cute",
@@ -1028,8 +1018,8 @@
       {
         "id": "idol_kpop",
         "text": "K-POPアイドル系",
-        "textKo": "K-POP 아이돌",
-        "textEn": "K-POP idol",
+        "textKo": "아이돌미 강함",
+        "textEn": "K-POP idol vibe",
         "scoreKey": "idol_kpop",
         "scores": {
           "idol_kpop": 1
@@ -1049,7 +1039,7 @@
         "id": "gap",
         "text": "ツンデレ系",
         "textKo": "츤데레",
-        "textEn": "Tsundere / gap",
+        "textEn": "Tsundere (gap charm)",
         "scoreKey": "gap",
         "scores": {
           "gap": 1
@@ -1059,7 +1049,7 @@
         "id": "pure",
         "text": "清楚系",
         "textKo": "청순",
-        "textEn": "Pure / neat",
+        "textEn": "Pure / clean",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1079,7 +1069,7 @@
         "id": "natural_airhead",
         "text": "天然系",
         "textKo": "천연/엉뚱",
-        "textEn": "Natural airhead",
+        "textEn": "Naturally airheaded",
         "scoreKey": "cute",
         "scores": {
           "cute": 1,
@@ -1090,7 +1080,7 @@
         "id": "small_animal",
         "text": "小動物系",
         "textKo": "작은 동물 느낌",
-        "textEn": "Small-animal",
+        "textEn": "Small-animal vibe",
         "scoreKey": "squirrel",
         "scores": {
           "squirrel": 1
@@ -1120,7 +1110,7 @@
         "id": "dark",
         "text": "地雷系",
         "textKo": "지뢰 스타일",
-        "textEn": "Jirai / edgy",
+        "textEn": "Jirai (dark cute) / edgy",
         "scoreKey": "mysterious",
         "scores": {
           "mysterious": 1
@@ -1130,7 +1120,7 @@
         "id": "transparency",
         "text": "透明感",
         "textKo": "투명감",
-        "textEn": "Translucent / clear",
+        "textEn": "Translucent / clear vibe",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1150,7 +1140,7 @@
         "id": "fresh",
         "text": "初々しい・素朴",
         "textKo": "풋풋/소박",
-        "textEn": "Fresh / simple",
+        "textEn": "Fresh & simple",
         "scoreKey": "youthful",
         "scores": {
           "youthful": 1,
@@ -1202,7 +1192,7 @@
         "id": "idol_polished",
         "text": "アイドル感強め",
         "textKo": "아이돌 느낌 강함",
-        "textEn": "Polished idol vibe",
+        "textEn": "Highly polished idol vibe",
         "scoreKey": "idol_polished",
         "scores": {
           "idol_polished": 1
@@ -1215,15 +1205,15 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 3,
-    "text": "パフォーマンスで重視すること（最大3つまで選択）",
-    "textKo": "퍼포먼스에서 중시하는 것 (최대 3개 선택)",
-    "textEn": "Performance priorities (pick up to 3)",
+    "text": "パフォーマンスで重視すること\n（※最大3つまで）",
+    "textKo": "퍼포먼스에서 중시하는 것\n（*최대 3개）",
+    "textEn": "Performance Priorities\n(up to 3)",
     "options": [
       {
         "id": "dance",
         "text": "ダンス重視",
         "textKo": "댄스 중시",
-        "textEn": "Dance first",
+        "textEn": "Dance-focused",
         "scoreKey": "dance",
         "scores": {
           "dance": 1
@@ -1233,7 +1223,7 @@
         "id": "vocal",
         "text": "歌唱力重視",
         "textKo": "보컬 중시",
-        "textEn": "Vocal first",
+        "textEn": "Vocal-focused",
         "scoreKey": "vocal",
         "scores": {
           "vocal": 1
@@ -1242,7 +1232,7 @@
       {
         "id": "expression",
         "text": "世界観・表現力",
-        "textKo": "세계관·표현력",
+        "textKo": "세계관·표현력 중시",
         "textEn": "Concept & expression",
         "scoreKey": "expression",
         "scores": {
@@ -1263,7 +1253,7 @@
         "id": "stability_high",
         "text": "完成度の高さ",
         "textKo": "완성도 높음",
-        "textEn": "Polish / perfection",
+        "textEn": "Polish & perfection",
         "scoreKey": "stability",
         "scores": {
           "stability": 1
@@ -1272,8 +1262,8 @@
       {
         "id": "stability",
         "text": "安定している",
-        "textKo": "안정적",
-        "textEn": "Stable performance",
+        "textKo": "안정감",
+        "textEn": "Consistency",
         "scoreKey": "stability",
         "scores": {
           "stability": 1
@@ -1302,8 +1292,8 @@
       {
         "id": "facial_skill",
         "text": "表情管理がうまい",
-        "textKo": "표정 관리 잘함",
-        "textEn": "Great facial control",
+        "textKo": "표정 관리 능숙",
+        "textEn": "Strong facial control",
         "scoreKey": "facial",
         "scores": {
           "facial": 1
@@ -1312,7 +1302,7 @@
       {
         "id": "facial_rich",
         "text": "表情が豊か",
-        "textKo": "표정 풍부",
+        "textKo": "표정이 풍부함",
         "textEn": "Expressive face",
         "scoreKey": "facial",
         "scores": {
@@ -1342,8 +1332,8 @@
       {
         "id": "clean_moves",
         "text": "動きがきれい",
-        "textKo": "동작이 깔끔",
-        "textEn": "Clean moves",
+        "textKo": "동작이 깔끔함",
+        "textEn": "Clean choreography",
         "scoreKey": "dance",
         "scores": {
           "dance": 1
@@ -1352,8 +1342,8 @@
       {
         "id": "presence_eye",
         "text": "目を引く存在感",
-        "textKo": "시선 끄는 존재감",
-        "textEn": "Eye-catching presence",
+        "textKo": "시선을 끄는 존재감",
+        "textEn": "Eye-catching stage presence",
         "scoreKey": "presence",
         "scores": {
           "presence": 1
@@ -1376,9 +1366,9 @@
     "type": "multi",
     "minSelect": 1,
     "maxSelect": 3,
-    "text": "特典会・対応で重視すること（最大3つまで選択）",
-    "textKo": "특典회·팬 응대에서 중요하게 보는 것 (최대 3개 선택)",
-    "textEn": "What you value in fan events (pick up to 3)",
+    "text": "特典会・対応で重視すること\n（※最大3つまで）",
+    "textKo": "특전회에서 중요하게 생각하는 점\n（*최대 3개）",
+    "textEn": "What you value in fan events\n(up to 3)",
     "options": [
       {
         "id": "comfort",
@@ -1413,7 +1403,7 @@
       {
         "id": "cheer_fun",
         "text": "明るく楽しい",
-        "textKo": "밝고 즐거움",
+        "textKo": "밝고 즐거움이 있음",
         "textEn": "Bright and fun",
         "scoreKey": "cheer",
         "scores": {
@@ -1433,7 +1423,7 @@
       {
         "id": "cool",
         "text": "さっぱりしている",
-        "textKo": "쿨함/담백",
+        "textKo": "쿨함/담백함",
         "textEn": "Cool / brisk",
         "scoreKey": "cool",
         "scores": {
@@ -1463,7 +1453,7 @@
       {
         "id": "recognition",
         "text": "認知が早い",
-        "textKo": "인지가 빠름",
+        "textKo": "기억력이 좋음",
         "textEn": "Recognizes fans quickly",
         "scoreKey": "recognition",
         "scores": {
@@ -1473,7 +1463,7 @@
       {
         "id": "closeness",
         "text": "距離感が近い",
-        "textKo": "거리감이 가깝다",
+        "textKo": "거리감이 가까움",
         "textEn": "Feels close",
         "scoreKey": "closeness",
         "scores": {
