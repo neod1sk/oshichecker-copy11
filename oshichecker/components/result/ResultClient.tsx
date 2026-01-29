@@ -20,7 +20,6 @@ interface ResultClientProps {
     noResult: string;
     share: string;
     shareX: string;
-    saveImage: string;
     finalCandidates: string;
   };
 }
@@ -173,7 +172,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
       {/* シェア・アクションボタン */}
       <div
         className={`
-          mt-4 w-full max-w-sm space-y-2
+          mt-4 w-full max-w-sm space-y-1
           transition-all duration-500 delay-500
           ${showResults ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
         `}
@@ -183,10 +182,8 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
           topMembers={topMembers}
           groups={groups}
           locale={locale}
-          resultCardRef={resultCardRef}
           dict={{
             shareX: dict.shareX,
-            saveImage: dict.saveImage,
           }}
         />
 

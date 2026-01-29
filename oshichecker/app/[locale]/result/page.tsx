@@ -86,11 +86,6 @@ export default async function ResultPage({ params }: ResultPageProps) {
           : locale === "en"
           ? "Share on X"
           : "Xで結果をシェア",
-        saveImage: locale === "ko"
-          ? "결과 이미지 저장"
-          : locale === "en"
-          ? "Save Result Image"
-          : "結果画像を保存",
         finalCandidates: dict.result.finalCandidates,
       }}
     />
