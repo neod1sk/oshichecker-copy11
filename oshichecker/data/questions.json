@@ -976,21 +976,11 @@
       {
         "id": "elegant",
         "text": "きれい系",
-        "textKo": "예쁜/엘레강스",
+        "textKo": "예쁜･엘레강스",
         "textEn": "Elegant",
         "scoreKey": "elegant",
         "scores": {
           "elegant": 1
-        }
-      },
-      {
-        "id": "idol_kpop",
-        "text": "K-POPアイドル系",
-        "textKo": "아이돌미 강함",
-        "textEn": "K-POP idol vibe",
-        "scoreKey": "idol_kpop",
-        "scores": {
-          "idol_kpop": 1
         }
       },
       {
@@ -1004,20 +994,40 @@
         }
       },
       {
-        "id": "gap",
-        "text": "ツンデレ系",
-        "textKo": "츤데레",
-        "textEn": "Tsundere (gap charm)",
-        "scoreKey": "gap",
+        "id": "idol_kpop",
+        "text": "K-POPアイドルタイプ",
+        "textKo": "K-POP 아이돌 스타일",
+        "textEn": "K-POP idol type",
+        "scoreKey": "idol_kpop",
         "scores": {
-          "gap": 1
+          "idol_kpop": 1
+        }
+      },
+      {
+        "id": "idol_polished",
+        "text": "日本アイドルタイプ",
+        "textKo": "일본 아이돌 스타일",
+        "textEn": "Japanese idol type",
+        "scoreKey": "idol_polished",
+        "scores": {
+          "idol_polished": 1
+        }
+      },
+      {
+        "id": "mature",
+        "text": "大人っぽい",
+        "textKo": "어른스러운",
+        "textEn": "Mature",
+        "scoreKey": "elegant",
+        "scores": {
+          "elegant": 1
         }
       },
       {
         "id": "pure",
-        "text": "清楚系",
-        "textKo": "청순",
-        "textEn": "Pure / clean",
+        "text": "清楚系・透明感",
+        "textKo": "청순·투명감",
+        "textEn": "Pure & clear vibe",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1034,27 +1044,6 @@
         }
       },
       {
-        "id": "natural_airhead",
-        "text": "天然系",
-        "textKo": "천연/엉뚱",
-        "textEn": "Naturally airheaded",
-        "scoreKey": "cute",
-        "scores": {
-          "cute": 1,
-          "unique": 1
-        }
-      },
-      {
-        "id": "small_animal",
-        "text": "小動物系",
-        "textKo": "작은 동물 느낌",
-        "textEn": "Small-animal vibe",
-        "scoreKey": "squirrel",
-        "scores": {
-          "squirrel": 1
-        }
-      },
-      {
         "id": "babyface",
         "text": "童顔系",
         "textKo": "동안",
@@ -1062,16 +1051,6 @@
         "scoreKey": "youthful",
         "scores": {
           "youthful": 1
-        }
-      },
-      {
-        "id": "innocent",
-        "text": "無邪気系",
-        "textKo": "천진난만",
-        "textEn": "Innocent",
-        "scoreKey": "cute",
-        "scores": {
-          "cute": 1
         }
       },
       {
@@ -1085,51 +1064,9 @@
         }
       },
       {
-        "id": "transparency",
-        "text": "透明感",
-        "textKo": "투명감",
-        "textEn": "Translucent / clear vibe",
-        "scoreKey": "pure",
-        "scores": {
-          "pure": 1
-        }
-      },
-      {
-        "id": "mature",
-        "text": "大人っぽい",
-        "textKo": "어른스러운",
-        "textEn": "Mature",
-        "scoreKey": "elegant",
-        "scores": {
-          "elegant": 1
-        }
-      },
-      {
-        "id": "fresh",
-        "text": "初々しい・素朴",
-        "textKo": "풋풋/소박",
-        "textEn": "Fresh & simple",
-        "scoreKey": "youthful",
-        "scores": {
-          "youthful": 1,
-          "pure": 1
-        }
-      },
-      {
-        "id": "cheer",
-        "text": "元気・明るい",
-        "textKo": "발랄/밝은",
-        "textEn": "Cheerful / bright",
-        "scoreKey": "cheer",
-        "scores": {
-          "cute": 1,
-          "cheer": 1
-        }
-      },
-      {
         "id": "mysterious",
         "text": "ミステリアス",
-        "textKo": "미스테리어스",
+        "textKo": "신비로운",
         "textEn": "Mysterious",
         "scoreKey": "mysterious",
         "scores": {
@@ -1138,9 +1075,9 @@
       },
       {
         "id": "natural",
-        "text": "ナチュラル",
-        "textKo": "내추럴",
-        "textEn": "Natural",
+        "text": "ナチュラル・素朴",
+        "textKo": "내추럴·소박",
+        "textEn": "Natural & simple",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1155,17 +1092,8 @@
         "scores": {
           "unique": 1
         }
-      },
-      {
-        "id": "idol_polished",
-        "text": "アイドル感強め",
-        "textKo": "아이돌 느낌 강함",
-        "textEn": "Highly polished idol vibe",
-        "scoreKey": "idol_polished",
-        "scores": {
-          "idol_polished": 1
-        }
       }
+      
     ]
   },
   {
@@ -1238,16 +1166,6 @@
         }
       },
       {
-        "id": "explosive",
-        "text": "爆発力がある",
-        "textKo": "폭발력",
-        "textEn": "Explosive moments",
-        "scoreKey": "energy",
-        "scores": {
-          "energy": 1
-        }
-      },
-      {
         "id": "fresh",
         "text": "初々しさ",
         "textKo": "풋풋함",
@@ -1268,50 +1186,10 @@
         }
       },
       {
-        "id": "facial_rich",
-        "text": "表情が豊か",
-        "textKo": "표정이 풍부함",
-        "textEn": "Expressive face",
-        "scoreKey": "facial",
-        "scores": {
-          "facial": 1
-        }
-      },
-      {
-        "id": "charisma_eyes",
-        "text": "目力が強い",
-        "textKo": "눈빛 강함",
-        "textEn": "Strong gaze",
-        "scoreKey": "charisma",
-        "scores": {
-          "charisma": 1
-        }
-      },
-      {
         "id": "presence_cam",
         "text": "カメラ映えする",
         "textKo": "카메라발 좋음",
         "textEn": "Camera presence",
-        "scoreKey": "presence",
-        "scores": {
-          "presence": 1
-        }
-      },
-      {
-        "id": "clean_moves",
-        "text": "動きがきれい",
-        "textKo": "동작이 깔끔함",
-        "textEn": "Clean choreography",
-        "scoreKey": "dance",
-        "scores": {
-          "dance": 1
-        }
-      },
-      {
-        "id": "presence_eye",
-        "text": "目を引く存在感",
-        "textKo": "시선을 끄는 존재감",
-        "textEn": "Eye-catching stage presence",
         "scoreKey": "presence",
         "scores": {
           "presence": 1
