@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { useDiagnosis } from "@/context/DiagnosisContext";
 import { Locale } from "@/i18n.config";
@@ -29,6 +29,42 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
   const { state, reset, isBattleComplete } = useDiagnosis();
   const [showResults, setShowResults] = useState(false);
   const resultCardRef = useRef<HTMLDivElement>(null);
+
+  const compatibilityByMemberId = useMemo(() => {
+    const ranked = state.finalRanking;
+    if (ranked.length === 0) return {};
+
+    // 見た目を安定させるため、Match%は「順位」から割り当てる。
+    // - 下位が極端に低くならない（レンジを70〜99%に制限）
+    // - 丸めによる同率が出にくい（出た場合も必ず順位ごとにユニークになるよう補正）
+    const n = ranked.length;
+    const lower = 60;
+    const upper = 99;
+    // 0<gamma<1 で下位が落ちすぎないカーブになる（小さいほど下位が高くなる）
+    const gamma = 0.65;
+
+    const map: Record<string, number> = {};
+    let prev = Infinity;
+
+    for (let idx = 0; idx < n; idx++) {
+      const t = n === 1 ? 1 : 1 - idx / (n - 1); // 1位=1 → 最下位=0
+      const pctFloat = lower + (upper - lower) * Math.pow(t, gamma);
+      let pct = Math.round(pctFloat);
+
+      // 同率が出たら必ず順位が高い方が大きくなるように補正（ユニーク保証）
+      if (idx > 0 && pct >= prev) {
+        pct = prev - 1;
+      }
+
+      // 下限を割らないように（レンジ内に収める）
+      pct = Math.min(upper, Math.max(lower, pct));
+
+      map[ranked[idx].member.id] = pct;
+      prev = pct;
+    }
+
+    return map;
+  }, [state.finalRanking]);
 
   const watermarkText =
     locale === "ko"
@@ -87,7 +123,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
   const first = topMembers[0];
   const second = topMembers[1];
   const third = topMembers[2];
-  const remainingCandidates = state.finalRanking.slice(3, 8);
+  const remainingCandidates = state.finalRanking.slice(RESULT_COUNT);
 
   return (
     <div className="flex flex-col items-center py-2">
@@ -117,6 +153,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                 locale={locale}
                 groupName={getGroupName(first.member.groupId)}
                 groupBlogUrl={getGroupBlogUrl(first.member.groupId)}
+                compatibilityPercent={compatibilityByMemberId[first.member.id]}
                 size="large"
               />
             </div>
@@ -138,6 +175,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                   locale={locale}
                 groupName={getGroupName(second.member.groupId)}
                 groupBlogUrl={getGroupBlogUrl(second.member.groupId)}
+                  compatibilityPercent={compatibilityByMemberId[second.member.id]}
                   size="small"
                 />
               </div>
@@ -156,6 +194,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                   locale={locale}
                 groupName={getGroupName(third.member.groupId)}
                 groupBlogUrl={getGroupBlogUrl(third.member.groupId)}
+                  compatibilityPercent={compatibilityByMemberId[third.member.id]}
                   size="small"
                 />
               </div>
@@ -196,7 +235,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
         </button>
       </div>
 
-      {/* 4〜8位の最終候補（TOP3除外） */}
+      {/* 4位以降の最終候補（TOP3除外） */}
       {remainingCandidates.length > 0 && (
         <div
           className={`
@@ -217,6 +256,7 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
                 locale={locale}
                 groupName={getGroupName(candidate.member.groupId)}
                 groupBlogUrl={getGroupBlogUrl(candidate.member.groupId)}
+                compatibilityPercent={compatibilityByMemberId[candidate.member.id]}
                 hideOverlayName
                 size="mini"
               />

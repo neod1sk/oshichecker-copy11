@@ -8,21 +8,21 @@
     "xUrl": "https://x.com/kokoiya_haruna",
     "photoUrl": "https://assets.st-note.com/img/1760014024-kNdoiFG94b0jKTnIwcp5qz2S.jpg?width=1200",
     "tags": [
+      "sexy",
       "kind",
-      "facial",
-      "sexy"
+      "facial"
     ],
     "scores": {
-      "genre_magical": 1,
+      "genre_denpa": 1,
       "genre_orthodox": 2,
+      "face_raccoon_dog": 2,
       "sexy": 2,
       "elegant": 2,
       "charisma": 1,
       "facial": 3,
       "stability": 2,
       "cheer": 2,
-      "social": 2,
-      "face_dog": 2
+      "social": 2
     },
     "jpSupport": "some",
     "covers": {
@@ -51,7 +51,7 @@
       "charming"
     ],
     "scores": {
-      "genre_magical": 1,
+      "genre_denpa": 1,
       "genre_orthodox": 2,
       "face_squirrel": 1,
       "cute": 2,
@@ -89,7 +89,7 @@
       "face_dog"
     ],
     "scores": {
-      "genre_magical": 1,
+      "genre_denpa": 1,
       "genre_orthodox": 2,
       "face_dog": 2,
       "cute": 2,
@@ -127,7 +127,7 @@
       "growth"
     ],
     "scores": {
-      "genre_magical": 1,
+      "genre_denpa": 1,
       "genre_orthodox": 2,
       "face_cat": 2,
       "elegant": 2,
@@ -177,8 +177,9 @@
     },
     "jpSupport": "ok",
     "covers": {
-      "artist_zerokara_start": 4,
+      "artist_zerokara_start": 3,
       "artist_cy8er": 2,
+      "artist_appare": 1,
       "artist_appare!": 1,
       "artist_stainy": 1,
       "artist_animo": 1,
@@ -203,7 +204,7 @@
       "face_squirrel": 1,
       "cute": 1,
       "youthful": 2,
-      "dance": 3,
+      "dance": 2,
       "energy": 3,
       "facial": 2,
       "cheer": 2,
@@ -211,8 +212,9 @@
     },
     "jpSupport": "ok",
     "covers": {
-      "artist_zerokara_start": 4,
+      "artist_zerokara_start": 3,
       "artist_cy8er": 2,
+      "artist_appare": 1,
       "artist_appare!": 1,
       "artist_stainy": 1,
       "artist_animo": 1,
@@ -245,8 +247,9 @@
     },
     "jpSupport": "unknown",
     "covers": {
-      "artist_zerokara_start": 4,
+      "artist_zerokara_start": 3,
       "artist_cy8er": 2,
+      "artist_appare": 1,
       "artist_appare!": 1,
       "artist_stainy": 1,
       "artist_animo": 1,
@@ -279,8 +282,9 @@
     },
     "jpSupport": "no",
     "covers": {
-      "artist_zerokara_start": 4,
+      "artist_zerokara_start": 3,
       "artist_cy8er": 2,
+      "artist_appare": 1,
       "artist_appare!": 1,
       "artist_stainy": 1,
       "artist_animo": 1,
@@ -381,14 +385,16 @@
       "face_cat": 2,
       "idol_polished": 1,
       "healing": 2,
+      "pure": 1,
       "growth": 2,
-      "comfort": 1,
+      "facial": 1,
       "kind": 2,
       "talk": 2
     },
     "jpSupport": "unknown",
     "covers": {
       "artist_chula": 2,
+      "artist_a_lot_of_love": 1,
       "artist_a_lot_of_love!": 1,
       "artist_asutori_no_usagi": 1,
       "artist_fruits_zipper": 1,
@@ -412,17 +418,19 @@
     "scores": {
       "genre_orthodox": 2,
       "genre_magical": 1,
+      "face_raccoon_dog": 2,
       "pure": 2,
       "youthful": 1,
       "healing": 2,
       "growth": 2,
+      "facial": 1,
       "kind": 2,
-      "talk": 2,
-      "face_dog": 2
+      "talk": 2
     },
     "jpSupport": "unknown",
     "covers": {
       "artist_chula": 2,
+      "artist_a_lot_of_love": 1,
       "artist_a_lot_of_love!": 1,
       "artist_asutori_no_usagi": 1,
       "artist_fruits_zipper": 1,
@@ -515,12 +523,12 @@
     ],
     "scores": {
       "genre_orthodox": 2,
-      "genre_yami": 1,
+      "genre_denpa": 1,
       "face_rabbit": 3,
       "pure": 2,
       "idol_polished": 2,
       "expression": 2,
-      "stability": 3,
+      "stability": 2,
       "charisma": 2,
       "kind": 2,
       "talk": 2
@@ -528,6 +536,7 @@
     "jpSupport": "unknown",
     "covers": {
       "artist_splash": 2,
+      "artist_unknown_world": 2,
       "artist_un_known_world": 2,
       "artist_utage": 1,
       "artist_miracle_fanfare": 1,
@@ -548,19 +557,21 @@
       "expression"
     ],
     "scores": {
-      "genre_alt": 3,
+      "genre_orthodox": 2,
+      "genre_alt": 1,
+      "face_raccoon_dog": 1,
       "sexy": 3,
       "elegant": 1,
       "dance": 2,
       "stability": 2,
       "expression": 1,
       "kind": 2,
-      "talk": 2,
-      "face_dog": 1
+      "talk": 2
     },
     "jpSupport": "unknown",
     "covers": {
       "artist_splash": 2,
+      "artist_unknown_world": 2,
       "artist_un_known_world": 2,
       "artist_utage": 1,
       "artist_miracle_fanfare": 1,
@@ -610,17 +621,17 @@
     "xUrl": "https://x.com/chui_nim",
     "photoUrl": "https://assets.st-note.com/img/1761486917-RlNsvpaB8ZGdKcFY3Q0AgJOV.jpg?width=1200",
     "tags": [
-      "elegant",
-      "stability",
-      "presence"
+      "cute",
+      "dance",
+      "facial"
     ],
     "scores": {
-      "genre_orthodox": 1,
+      "genre_orthodox": 3,
       "face_rabbit": 2,
-      "elegant": 2,
-      "cool": 1,
+      "cute": 2,
       "idol_kpop": 1,
-      "stability": 2,
+      "dance": 1,
+      "facial": 2,
       "presence": 2,
       "kind": 2,
       "talk": 2
@@ -628,6 +639,7 @@
     "jpSupport": "unknown",
     "covers": {
       "artist_splash": 2,
+      "artist_unknown_world": 2,
       "artist_un_known_world": 2,
       "artist_utage": 1,
       "artist_miracle_fanfare": 1,
@@ -644,16 +656,18 @@
     "photoUrl": "https://assets.st-note.com/img/1761487010-AevXFSo5QG8zdk3KYB1VfMOq.jpg?width=1200",
     "tags": [
       "elegant",
-      "cool",
+      "energy",
       "expression"
     ],
     "scores": {
       "genre_dark": 1,
       "genre_gothic": 2,
-      "face_fox": 1,
-      "elegant": 1,
+      "face_dog": 1,
+      "elegant": 2,
       "cool": 1,
-      "expression": 1,
+      "expression": 2,
+      "energy": 1,
+      "charisma": 1,
       "kind": 2,
       "talk": 2
     },
@@ -713,17 +727,19 @@
     "tags": [
       "cool",
       "mysterious",
-      "stability"
+      "charisma"
     ],
     "scores": {
       "genre_dark": 1,
       "genre_gothic": 2,
+      "face_raccoon_dog": 1,
       "cool": 1,
       "mysterious": 2,
+      "unique": 1,
       "stability": 1,
+      "charisma": 1,
       "kind": 2,
-      "talk": 2,
-      "face_dog": 1
+      "talk": 2
     },
     "jpSupport": "unknown",
     "covers": {

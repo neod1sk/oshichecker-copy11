@@ -3,10 +3,16 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useDiagnosis } from "@/context/DiagnosisContext";
-import { Question, QuestionOption, Member, KoreanLevel } from "@/lib/types";
+import {
+  Question,
+  QuestionOption,
+  Member,
+  KoreanLevel,
+  BATTLE_ROUNDS,
+  CANDIDATE_COUNT,
+} from "@/lib/types";
 import { Locale } from "@/i18n.config";
 import { scoreMembersBySurvey, getTopCandidates } from "@/lib/scoring";
-import { CANDIDATE_COUNT } from "@/lib/types";
 import ProgressBar from "@/components/ui/ProgressBar";
 import QuestionCard from "@/components/ui/QuestionCard";
 
@@ -225,10 +231,10 @@ const handleSkipMulti = () => {
 
   // 既にバトルに進んでいる場合はバトルページへリダイレクト
   useEffect(() => {
-    if (state.candidates.length > 0 && state.currentBattleRound < 10) {
+    if (state.candidates.length > 0 && state.currentBattleRound < BATTLE_ROUNDS) {
       router.push(`/${locale}/battle`);
     }
-  }, [state.candidates.length, state.currentBattleRound, router, locale]);
+  }, [state.candidates.length, state.currentBattleRound, router, locale, BATTLE_ROUNDS]);
 
   // 計算中の表示
   if (isCalculating) {

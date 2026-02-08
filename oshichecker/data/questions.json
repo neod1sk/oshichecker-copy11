@@ -15,7 +15,7 @@
         "textEn": "Orthodox Style (Sparkly)",
         "scoreKey": "genre_orthodox",
         "scores": {
-          "genre_orthodox": 1
+          "genre_orthodox": 1.8
         }
       },
       {
@@ -25,7 +25,7 @@
         "textEn": "Denpa Style (Cute/High-Energy)",
         "scoreKey": "genre_denpa",
         "scores": {
-          "genre_denpa": 1
+          "genre_denpa": 1.8
         }
       },
       {
@@ -35,7 +35,7 @@
         "textEn": "Loud Style (Rock & Aggressive)",
         "scoreKey": "genre_loud",
         "scores": {
-          "genre_loud": 1
+          "genre_loud": 1.8
         }
       },
       {
@@ -45,7 +45,7 @@
         "textEn": "Alternative Style (Artistic)",
         "scoreKey": "genre_alt",
         "scores": {
-          "genre_alt": 1
+          "genre_alt": 1.8
         }
       },
       {
@@ -55,7 +55,7 @@
         "textEn": "Gothic Style (Decadent)",
         "scoreKey": "genre_gothic",
         "scores": {
-          "genre_gothic": 1
+          "genre_gothic": 1.8
         }
       },
       {
@@ -65,7 +65,7 @@
         "textEn": "Cyber Style (Futuristic)",
         "scoreKey": "genre_cyber",
         "scores": {
-          "genre_cyber": 1
+          "genre_cyber": 1.8
         }
       }
     ]

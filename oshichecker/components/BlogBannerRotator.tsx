@@ -60,7 +60,7 @@ const BANNERS: Banner[] = [
   },
 ];
 
-const ROTATION_INTERVAL_MS = 6000;
+const ROTATION_INTERVAL_MS = 4500;
 
 export function BlogBannerRotator({ label }: { label?: string } = {}) {
   // 初期表示をランダム開始にするため、マウント時に決定
