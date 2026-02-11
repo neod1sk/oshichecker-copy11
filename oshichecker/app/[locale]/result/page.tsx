@@ -59,6 +59,7 @@ export async function generateMetadata({ params }: ResultPageProps): Promise<Met
       images: [
         {
           url: imageUrl,
+          type: "image/png",
           width: 1200,
           height: 630,
           alt: title,

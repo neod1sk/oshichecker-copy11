@@ -72,6 +72,7 @@ export async function generateMetadata({
       images: [
         {
           url: imageUrl,
+          type: "image/png",
           width: 1200,
           height: 630,
           alt: title,
