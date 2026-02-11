@@ -3,8 +3,8 @@
     "id": "q_genre_worldview",
     "type": "multi",
     "minSelect": 1,
-    "maxSelect": 2,
-    "text": "好きなジャンル\n（※最大2つまで）",
+    "maxSelect": 3,
+    "text": "好きなジャンル（※最大3つまで）",
     "textKo": "좋아하는 장르\n（*최대 2개）",
     "textEn": "Favorite genres / worlds (choose up to 2)",
     "options": [
@@ -15,7 +15,7 @@
         "textEn": "Orthodox Style (Sparkly)",
         "scoreKey": "genre_orthodox",
         "scores": {
-          "genre_orthodox": 1
+          "genre_orthodox": 1.8
         }
       },
       {
@@ -25,7 +25,7 @@
         "textEn": "Denpa Style (Cute/High-Energy)",
         "scoreKey": "genre_denpa",
         "scores": {
-          "genre_denpa": 1
+          "genre_denpa": 1.8
         }
       },
       {
@@ -35,7 +35,7 @@
         "textEn": "Loud Style (Rock & Aggressive)",
         "scoreKey": "genre_loud",
         "scores": {
-          "genre_loud": 1
+          "genre_loud": 1.8
         }
       },
       {
@@ -45,17 +45,7 @@
         "textEn": "Alternative Style (Artistic)",
         "scoreKey": "genre_alt",
         "scores": {
-          "genre_alt": 1
-        }
-      },
-      {
-        "id": "dark",
-        "text": "地雷／闇かわ系（ダーク・世界観）",
-        "textKo": "지뢰계 (세계관 중시)",
-        "textEn": "Dark Cute Style",
-        "scoreKey": "genre_dark",
-        "scores": {
-          "genre_dark": 1
+          "genre_alt": 1.8
         }
       },
       {
@@ -65,7 +55,7 @@
         "textEn": "Gothic Style (Decadent)",
         "scoreKey": "genre_gothic",
         "scores": {
-          "genre_gothic": 1
+          "genre_gothic": 1.8
         }
       },
       {
@@ -75,17 +65,7 @@
         "textEn": "Cyber Style (Futuristic)",
         "scoreKey": "genre_cyber",
         "scores": {
-          "genre_cyber": 1
-        }
-      },
-      {
-        "id": "magical",
-        "text": "魔法少女系（可愛い×闇要素）",
-        "textKo": "마법소녀형 (귀여움×다크 요소)",
-        "textEn": "Magical Girl (Cute × Dark)",
-        "scoreKey": "genre_magical",
-        "scores": {
-          "genre_magical": 1
+          "genre_cyber": 1.8
         }
       }
     ]
@@ -132,14 +112,6 @@
         }
       },
       {
-        "id": "artist_ange_reve",
-        "text": "Ange☆Reve",
-        "scoreKey": "artist_ange_reve",
-        "scores": {
-          "artist_ange_reve": 1
-        }
-      },
-      {
         "id": "artist_antithese",
         "text": "Antithese（アンチテーゼ）",
         "scoreKey": "artist_antithese",
@@ -153,6 +125,14 @@
         "scoreKey": "artist_appare!",
         "scores": {
           "artist_appare!": 1
+        }
+      },
+      {
+        "id": "artist_arca",
+        "text": "arca（アルカ）",
+        "scoreKey": "artist_arca",
+        "scores": {
+          "artist_arca": 1
         }
       },
       {
@@ -348,14 +328,6 @@
         }
       },
       {
-        "id": "artist_hiragana_kamiyado",
-        "text": "HIRAGANA KAMIYADO",
-        "scoreKey": "artist_hiragana_kamiyado",
-        "scores": {
-          "artist_hiragana_kamiyado": 1
-        }
-      },
-      {
         "id": "artist_honey_spice_re",
         "text": "Honey Spice Re.（ハニースパイスRe.）",
         "scoreKey": "artist_honey_spice_re",
@@ -397,7 +369,7 @@
       },
       {
         "id": "artist_jams_collection",
-        "text": "Jams Collection",
+        "text": "Jams Collection（ジャムズ）",
         "scoreKey": "artist_jams_collection",
         "scores": {
           "artist_jams_collection": 1
@@ -553,6 +525,14 @@
         "scoreKey": "artist_merry_bad_tune",
         "scores": {
           "artist_merry_bad_tune": 1
+        }
+      },
+      {
+        "id": "artist_miis",
+        "text": "MiiS",
+        "scoreKey": "artist_miis",
+        "scores": {
+          "artist_miis": 1
         }
       },
       {
@@ -820,6 +800,14 @@
         }
       },
       {
+        "id": "artist_yoroz",
+        "text": "YOLOZ",
+        "scoreKey": "artist_yoroz",
+        "scores": {
+          "artist_yoroz": 1
+        }
+      },
+      {
         "id": "artist_yosugala",
         "text": "yosugala",
         "scoreKey": "artist_yosugala",
@@ -889,10 +877,10 @@
     "id": "q_face_animal",
     "type": "multi",
     "minSelect": 1,
-    "maxSelect": 2,
-    "text": "好きな顔の系統\n（※最大2つまで）",
-    "textKo": "좋아하는 얼굴상\n（*최대 2개）",
-    "textEn": "Preferred Face Vibe\n(up to 2)",
+    "maxSelect": 3,
+    "text": "好きな顔の系統\n（※最大3つまで）",
+    "textKo": "좋아하는 얼굴상\n（*최대 3개）",
+    "textEn": "Preferred Face Vibe\n(up to 3)",
     "options": [
       {
         "id": "cat",
@@ -925,16 +913,6 @@
         }
       },
       {
-        "id": "tanuki",
-        "text": "タヌキ顔",
-        "textKo": "너구리상",
-        "textEn": "Tanuki-type face",
-        "scoreKey": "face_raccoon_dog",
-        "scores": {
-          "face_raccoon_dog": 1
-        }
-      },
-      {
         "id": "fox",
         "text": "キツネ顔",
         "textKo": "여우상",
@@ -962,16 +940,6 @@
         "scoreKey": "face_chick",
         "scores": {
           "face_chick": 1
-        }
-      },
-      {
-        "id": "bird",
-        "text": "小鳥顔",
-        "textKo": "코토리상",
-        "textEn": "Little-bird-type face",
-        "scoreKey": "face_bird",
-        "scores": {
-          "face_bird": 1
         }
       }
     ]
@@ -1008,21 +976,11 @@
       {
         "id": "elegant",
         "text": "きれい系",
-        "textKo": "예쁜/엘레강스",
+        "textKo": "예쁜･엘레강스",
         "textEn": "Elegant",
         "scoreKey": "elegant",
         "scores": {
           "elegant": 1
-        }
-      },
-      {
-        "id": "idol_kpop",
-        "text": "K-POPアイドル系",
-        "textKo": "아이돌미 강함",
-        "textEn": "K-POP idol vibe",
-        "scoreKey": "idol_kpop",
-        "scores": {
-          "idol_kpop": 1
         }
       },
       {
@@ -1036,20 +994,40 @@
         }
       },
       {
-        "id": "gap",
-        "text": "ツンデレ系",
-        "textKo": "츤데레",
-        "textEn": "Tsundere (gap charm)",
-        "scoreKey": "gap",
+        "id": "idol_kpop",
+        "text": "K-POPアイドルタイプ",
+        "textKo": "K-POP 아이돌 스타일",
+        "textEn": "K-POP idol type",
+        "scoreKey": "idol_kpop",
         "scores": {
-          "gap": 1
+          "idol_kpop": 1
+        }
+      },
+      {
+        "id": "idol_polished",
+        "text": "日本アイドルタイプ",
+        "textKo": "일본 아이돌 스타일",
+        "textEn": "Japanese idol type",
+        "scoreKey": "idol_polished",
+        "scores": {
+          "idol_polished": 1
+        }
+      },
+      {
+        "id": "mature",
+        "text": "大人っぽい",
+        "textKo": "어른스러운",
+        "textEn": "Mature",
+        "scoreKey": "elegant",
+        "scores": {
+          "elegant": 1
         }
       },
       {
         "id": "pure",
-        "text": "清楚系",
-        "textKo": "청순",
-        "textEn": "Pure / clean",
+        "text": "清楚系・透明感",
+        "textKo": "청순·투명감",
+        "textEn": "Pure & clear vibe",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1066,27 +1044,6 @@
         }
       },
       {
-        "id": "natural_airhead",
-        "text": "天然系",
-        "textKo": "천연/엉뚱",
-        "textEn": "Naturally airheaded",
-        "scoreKey": "cute",
-        "scores": {
-          "cute": 1,
-          "unique": 1
-        }
-      },
-      {
-        "id": "small_animal",
-        "text": "小動物系",
-        "textKo": "작은 동물 느낌",
-        "textEn": "Small-animal vibe",
-        "scoreKey": "squirrel",
-        "scores": {
-          "squirrel": 1
-        }
-      },
-      {
         "id": "babyface",
         "text": "童顔系",
         "textKo": "동안",
@@ -1094,16 +1051,6 @@
         "scoreKey": "youthful",
         "scores": {
           "youthful": 1
-        }
-      },
-      {
-        "id": "innocent",
-        "text": "無邪気系",
-        "textKo": "천진난만",
-        "textEn": "Innocent",
-        "scoreKey": "cute",
-        "scores": {
-          "cute": 1
         }
       },
       {
@@ -1117,51 +1064,9 @@
         }
       },
       {
-        "id": "transparency",
-        "text": "透明感",
-        "textKo": "투명감",
-        "textEn": "Translucent / clear vibe",
-        "scoreKey": "pure",
-        "scores": {
-          "pure": 1
-        }
-      },
-      {
-        "id": "mature",
-        "text": "大人っぽい",
-        "textKo": "어른스러운",
-        "textEn": "Mature",
-        "scoreKey": "elegant",
-        "scores": {
-          "elegant": 1
-        }
-      },
-      {
-        "id": "fresh",
-        "text": "初々しい・素朴",
-        "textKo": "풋풋/소박",
-        "textEn": "Fresh & simple",
-        "scoreKey": "youthful",
-        "scores": {
-          "youthful": 1,
-          "pure": 1
-        }
-      },
-      {
-        "id": "cheer",
-        "text": "元気・明るい",
-        "textKo": "발랄/밝은",
-        "textEn": "Cheerful / bright",
-        "scoreKey": "cheer",
-        "scores": {
-          "cute": 1,
-          "cheer": 1
-        }
-      },
-      {
         "id": "mysterious",
         "text": "ミステリアス",
-        "textKo": "미스테리어스",
+        "textKo": "신비로운",
         "textEn": "Mysterious",
         "scoreKey": "mysterious",
         "scores": {
@@ -1170,9 +1075,9 @@
       },
       {
         "id": "natural",
-        "text": "ナチュラル",
-        "textKo": "내추럴",
-        "textEn": "Natural",
+        "text": "ナチュラル・素朴",
+        "textKo": "내추럴·소박",
+        "textEn": "Natural & simple",
         "scoreKey": "pure",
         "scores": {
           "pure": 1
@@ -1187,17 +1092,8 @@
         "scores": {
           "unique": 1
         }
-      },
-      {
-        "id": "idol_polished",
-        "text": "アイドル感強め",
-        "textKo": "아이돌 느낌 강함",
-        "textEn": "Highly polished idol vibe",
-        "scoreKey": "idol_polished",
-        "scores": {
-          "idol_polished": 1
-        }
       }
+      
     ]
   },
   {
@@ -1270,16 +1166,6 @@
         }
       },
       {
-        "id": "explosive",
-        "text": "爆発力がある",
-        "textKo": "폭발력",
-        "textEn": "Explosive moments",
-        "scoreKey": "energy",
-        "scores": {
-          "energy": 1
-        }
-      },
-      {
         "id": "fresh",
         "text": "初々しさ",
         "textKo": "풋풋함",
@@ -1300,50 +1186,10 @@
         }
       },
       {
-        "id": "facial_rich",
-        "text": "表情が豊か",
-        "textKo": "표정이 풍부함",
-        "textEn": "Expressive face",
-        "scoreKey": "facial",
-        "scores": {
-          "facial": 1
-        }
-      },
-      {
-        "id": "charisma_eyes",
-        "text": "目力が強い",
-        "textKo": "눈빛 강함",
-        "textEn": "Strong gaze",
-        "scoreKey": "charisma",
-        "scores": {
-          "charisma": 1
-        }
-      },
-      {
         "id": "presence_cam",
         "text": "カメラ映えする",
         "textKo": "카메라발 좋음",
         "textEn": "Camera presence",
-        "scoreKey": "presence",
-        "scores": {
-          "presence": 1
-        }
-      },
-      {
-        "id": "clean_moves",
-        "text": "動きがきれい",
-        "textKo": "동작이 깔끔함",
-        "textEn": "Clean choreography",
-        "scoreKey": "dance",
-        "scores": {
-          "dance": 1
-        }
-      },
-      {
-        "id": "presence_eye",
-        "text": "目を引く存在感",
-        "textKo": "시선을 끄는 존재감",
-        "textEn": "Eye-catching stage presence",
         "scoreKey": "presence",
         "scores": {
           "presence": 1

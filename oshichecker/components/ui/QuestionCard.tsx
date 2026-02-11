@@ -39,19 +39,19 @@ export default function QuestionCard({
       next: "次へ",
       skip: "スキップする",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} 選択中（最低 ${min}）`,
-      genreTitle: "好きなジャンル\n（※最大2つまで）",
+      genreTitle: "好きなジャンル（※最大3つまで）",
     },
     ko: {
       next: "다음",
       skip: "건너뛰기",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} 선택됨 (최소 ${min})`,
-      genreTitle: "좋아하는 장르\n（*최대 2개）",
+      genreTitle: "좋아하는 장르\n（*최대 3개）",
     },
     en: {
       next: "Next",
       skip: "Skip",
       selected: (cur: number, max: number, min: number) => `${cur}/${max} selected (min ${min})`,
-      genreTitle: "Favorite Genres\n(up to 2)",
+      genreTitle: "Favorite Genres\n(up to 3)",
     },
   } as const;
 

@@ -61,7 +61,7 @@ export interface QuestionOption {
 
 /** 対戦履歴 */
 export interface BattleRecord {
-  round: number; // 何回目の対戦か（1〜10）
+  round: number; // 何回目の対戦か（1〜BATTLE_ROUNDS）
   memberA: string; // メンバーID
   memberB: string; // メンバーID
   winnerId: string; // 勝者のメンバーID
@@ -89,12 +89,12 @@ export interface DiagnosisState {
   preferJapaneseSupport: boolean; // 日本語対応優先トグル
 
   // Stage2: 二択バトル
-  candidates: CandidateMember[]; // 上位8名の候補
+  candidates: CandidateMember[]; // 上位候補（CANDIDATE_COUNT名）
   battleRecords: BattleRecord[]; // 対戦履歴
-  currentBattleRound: number; // 現在のバトル回数（1〜10）
+  currentBattleRound: number; // 現在のバトル回数（1〜BATTLE_ROUNDS）
 
   // 結果
-  finalRanking: CandidateMember[]; // 最終ランキング（上位8名）
+  finalRanking: CandidateMember[]; // 最終ランキング（CANDIDATE_COUNT名）
 }
 
 // ===========================================
@@ -116,6 +116,6 @@ export type DiagnosisAction =
 // 定数
 // ===========================================
 
-export const BATTLE_ROUNDS = 10; // バトル回数
-export const CANDIDATE_COUNT = 8; // 候補メンバー数
+export const BATTLE_ROUNDS = 18; // バトル回数
+export const CANDIDATE_COUNT = 14; // 候補メンバー数
 export const RESULT_COUNT = 3; // 結果表示数（カード上部で使う上位3件）

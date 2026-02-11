@@ -130,6 +130,6 @@ export function calculateFinalRanking(
     return a.member.id.localeCompare(b.member.id);
   });
 
-  // バトル候補は8名なのでその範囲で返す（表示は別途上位3と4-8位で分割）
+  // バトル候補は CANDIDATE_COUNT 名なのでその範囲で返す（表示は別途上位3と残りで分割）
   return sorted.slice(0, CANDIDATE_COUNT);
 }

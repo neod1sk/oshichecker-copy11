@@ -13,6 +13,7 @@ interface ResultMemberCardProps {
   locale: Locale;
   groupName?: string;
   groupBlogUrl?: string;
+  compatibilityPercent?: number;
   hideOverlayName?: boolean;
   size?: "large" | "small" | "mini";
 }
@@ -23,6 +24,7 @@ export default function ResultMemberCard({
   locale,
   groupName,
   groupBlogUrl,
+  compatibilityPercent,
   hideOverlayName = false,
   size = "large",
 }: ResultMemberCardProps) {
@@ -32,6 +34,12 @@ export default function ResultMemberCard({
   const isExternal = isExternalUrl(member.photoUrl);
   const xUrl = member.xUrl;
   const isClickable = Boolean(groupBlogUrl);
+
+  const compatibilityLabel = "Match";
+  const compatibilityText =
+    typeof compatibilityPercent === "number"
+      ? `${compatibilityLabel} ${Math.round(compatibilityPercent)}%`
+      : "";
 
   const handleCardClick = () => {
     if (!groupBlogUrl) return;
@@ -135,19 +143,14 @@ export default function ResultMemberCard({
                 showAll
                 direction="col"
               />
-              <div className="text-[10px] text-gray-400 leading-tight space-y-0.5 pt-0.5">
-                <div className="flex items-center gap-1">
-                  <span>Score</span>
-                  <span>{candidate.surveyScore.toFixed(1)}</span>
+              {compatibilityText && (
+                <div className="text-[11px] font-semibold text-gray-500 leading-tight pt-0.5">
+                  {compatibilityText}
                 </div>
-                <div className="flex items-center gap-1">
-                  <span>Wins</span>
-                  <span>{candidate.winCount}</span>
-                </div>
-              </div>
+              )}
             </div>
 
-            {/* スコア情報（非表示リクエストにより一時停止） */}
+            {/* スコア表示は「相性%」に置換 */}
           </div>
 
       {xUrl && (
@@ -233,8 +236,8 @@ export default function ResultMemberCard({
                 <span className="text-xs text-gray-500">#{rank}</span>
                 <h3 className="text-sm font-semibold text-gray-800 truncate">{displayName}</h3>
               </div>
-              {xUrl && (
-                <div className="flex flex-col items-center gap-0.5 text-[10px] text-gray-400 leading-tight mt-1">
+              <div className="flex flex-col items-center gap-0.5 text-[10px] text-gray-400 leading-tight mt-1">
+                {xUrl && (
                   <button
                     type="button"
                     onClick={(e) => {
@@ -248,10 +251,9 @@ export default function ResultMemberCard({
                       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                     </svg>
                   </button>
-                  <div>Score {candidate.surveyScore.toFixed(1)}</div>
-                  <div>Wins {candidate.winCount}</div>
-                </div>
-              )}
+                )}
+                {compatibilityText && <div>{compatibilityText}</div>}
+              </div>
             </div>
             <div className="-mt-2">
               <AttributeTagList tags={member.tags} locale={locale} size="sm" showAll />
@@ -321,8 +323,8 @@ export default function ResultMemberCard({
       {/* 情報エリア（コンパクト） */}
       <div className="p-2 flex items-start justify-between gap-2">
         <AttributeTagList tags={member.tags} locale={locale} size="sm" showAll />
-        {xUrl && (
-          <div className="flex flex-col items-center gap-1 text-[10px] text-gray-400 leading-tight">
+        <div className="flex flex-col items-center gap-1 text-[10px] text-gray-400 leading-tight">
+          {xUrl && (
             <button
               type="button"
               onClick={(e) => {
@@ -336,10 +338,9 @@ export default function ResultMemberCard({
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
               </svg>
             </button>
-            <div>Score {candidate.surveyScore.toFixed(1)}</div>
-            <div>Wins {candidate.winCount}</div>
-          </div>
-        )}
+          )}
+          {compatibilityText && <div>{compatibilityText}</div>}
+        </div>
       </div>
     </div>
   );

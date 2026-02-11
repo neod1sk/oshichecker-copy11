@@ -34,7 +34,7 @@ export const ATTRIBUTE_DEFINITIONS = [
   { key: "elegant", category: "vibe", label: { ja: "エレガント", ko: "엘레강스", en: "Elegant" } },
   { key: "healing", category: "vibe", label: { ja: "癒し", ko: "치유", en: "Healing" } },
   { key: "youthful", category: "vibe", label: { ja: "フレッシュ", ko: "상큼", en: "Fresh" } },
-  { key: "mysterious", category: "vibe", label: { ja: "ミステリアス", ko: "미스테리", en: "Mysterious" } },
+  { key: "mysterious", category: "vibe", label: { ja: "ミステリアス", ko: "신비로운", en: "Mysterious" } },
   { key: "unique", category: "vibe", label: { ja: "個性派", ko: "개성파", en: "Unique" } },
   { key: "idol_kpop", category: "vibe", label: { ja: "K-POPアイドル型", ko: "K-POP 아이돌형", en: "K-POP Idol Type" } },
   { key: "idol_polished", category: "vibe", label: { ja: "アイドル感強め", ko: "아이돌미가 강하다", en: "Strong idol vibes" } },
