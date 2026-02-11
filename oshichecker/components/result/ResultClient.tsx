@@ -68,10 +68,10 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
 
   const watermarkText =
     locale === "ko"
-      ? "이미지는 아이돌 트윗을 인용했습니다"
+      ? "📸 결과를 캡처해서 X에 공유하세요!"
       : locale === "en"
-      ? "Images are quoted from idols' tweets"
-      : "画像はアイドルのツイートから引用しています";
+      ? "📸 Screenshot your results and share on X!"
+      : "📸 結果をスクショしてXでシェアしよう！";
 
   const getGroupName = (groupId: string): string => {
     const group = groups.find((g) => g.id === groupId);
@@ -203,7 +203,13 @@ export default function ResultClient({ locale, groups, dict }: ResultClientProps
         </div>
 
         {/* ウォーターマーク（画像保存時に表示） */}
-        <div className="mt-3 text-center text-xs text-gray-400">
+        <div
+          className={`
+            mt-3 text-center text-xs text-gray-400
+            transition-all duration-500
+            ${showResults ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
+          `}
+        >
           {watermarkText}
         </div>
       </div>

@@ -24,32 +24,6 @@ export const metadata: Metadata = {
   description: "あなたにぴったりの韓国地下アイドルメンバーを診断します。アンケートと二択バトルで、運命の推しを見つけよう！",
   keywords: ["韓国アイドル", "地下アイドル", "推し診断", "K-POP", "推しチェッカー"],
   
-  // OGP設定
-  openGraph: {
-    type: "website",
-    locale: "ja_JP",
-    url: SITE_URL,
-    siteName: "推しチェッカー",
-    title: "推しチェッカー | 韓国地下アイドル診断",
-    description: "あなたにぴったりの韓国地下アイドルメンバーを診断します。アンケートと二択バトルで、運命の推しを見つけよう！",
-    images: [
-      {
-        url: `${SITE_URL}/images/ogp/default.svg`,
-        width: 1200,
-        height: 630,
-        alt: "推しチェッカー - 韓国地下アイドル診断",
-      },
-    ],
-  },
-  
-  // Twitter Card設定
-  twitter: {
-    card: "summary_large_image",
-    title: "推しチェッカー | 韓国地下アイドル診断",
-    description: "あなたにぴったりの韓国地下アイドルメンバーを診断します。アンケートと二択バトルで、運命の推しを見つけよう！",
-    images: [`${SITE_URL}/images/ogp/default.svg`],
-  },
-  
   // その他のメタ情報
   robots: {
     index: true,

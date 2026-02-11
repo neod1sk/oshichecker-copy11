@@ -7,8 +7,20 @@ import ResultClient from "@/components/result/ResultClient";
 // グループデータをインポート
 import groupsData from "@/data/groups.json";
 
-// サイトURL
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://oshichecker.example.com";
+// サイトURL（本番環境では環境変数から取得。なければVercelのURLを採用）
+const SITE_URL = (() => {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
+  if (explicit) return explicit;
+  const vercel = process.env.VERCEL_URL; // e.g. "oshichecker2.vercel.app"
+  if (vercel) return `https://${vercel}`;
+  return "https://oshichecker.example.com";
+})();
+
+const OGP_IMAGE_BY_LOCALE: Record<Locale, string> = {
+  ja: "https://assets.st-note.com/img/1770787818-nq9wT6rolLp0CkSmhIFZzi58.png",
+  ko: "https://assets.st-note.com/img/1770787818-BHEhOT3azXFtRyP8JAbjMovC.png",
+  en: "https://assets.st-note.com/img/1770787818-WnJw2KTdijZ9erc1sYtkbGEL.png",
+};
 
 interface ResultPageProps {
   params: { locale: Locale };
@@ -32,6 +44,7 @@ export async function generateMetadata({ params }: ResultPageProps): Promise<Met
   
   const title = titles[locale] || titles.ja;
   const description = descriptions[locale] || descriptions.ja;
+  const imageUrl = OGP_IMAGE_BY_LOCALE[locale] || OGP_IMAGE_BY_LOCALE.ja;
   
   return {
     title,
@@ -45,7 +58,7 @@ export async function generateMetadata({ params }: ResultPageProps): Promise<Met
       description,
       images: [
         {
-          url: `${SITE_URL}/images/ogp/result.svg`,
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: title,
@@ -56,7 +69,7 @@ export async function generateMetadata({ params }: ResultPageProps): Promise<Met
       card: "summary_large_image",
       title,
       description,
-      images: [`${SITE_URL}/images/ogp/result.svg`],
+      images: [imageUrl],
     },
   };
 }
